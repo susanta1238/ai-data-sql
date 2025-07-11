@@ -1,0 +1,31 @@
+# config/config.yaml - General application configuration
+
+app:
+  name: "AI Database Assistant"
+  version: "0.1.0"
+  host: "0.0.0.0"
+  port: 8000
+
+openai:
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  timeout: 30
+
+database:
+  server: null
+  name: null
+  user: null
+  password: null
+  trusted_connection: false
+  trust_server_certificate: false
+  odbc_driver: "{ODBC Driver 18 for SQL Server}"
+
+# --- Logging Configuration ---
+logging:
+  level: "INFO" # Global logging level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  datefmt: "%Y-%m-%d %H:%M:%S"
+  # Add handlers here if needed (e.g., file handler, console handler)
+
+# ... (logging section) ...
+  # We'll keep it simple with console output initially

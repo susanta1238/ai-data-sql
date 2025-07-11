@@ -1,0 +1,490 @@
+{
+    "9167fc65-31ef-47e1-8fb0-508c4e6a6b76": [
+        {
+            "role": "user",
+            "content": "How many of them have a valid email?"
+        },
+        {
+            "role": "assistant",
+            "content": "    \n0  0"
+        }
+    ],
+    "e34917d2-ef71-4d3d-8746-de4999126fde": [
+        {
+            "role": "user",
+            "content": "list of 10 ceo in usa"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                         organization_name\n0        713     nadeem malik                  genetics & ivf institute\n1       2275    arvind sharma                            it convergence\n2       2988        greg gill  action air conditioning, heating & solar\n3       3251        brent eck                                metagenics\n4       3289    jessica moore                            jessmo designs"
+        },
+        {
+            "role": "user",
+            "content": "give me with contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId       person_full_name                                           job_title                      person_email person_phone person_mobile                              organization_name\n0     100190           aaron berman                             chief executive officer               berman.aj@gmail.com         None          None  the infinite monkey theorem. an urban winery.\n1     103346           Aaron Berson                   Chief Executive Officer | Founder        aaron@fringeaccounting.com         None          None                             Fringe Advisory Co\n2      99970          aaron samples  chief executive officer and member of the board of  aaron.samples@nationstarmail.com         None          None          first guaranty mortgage corporation\u00c2\u00ae\n3     103407  Acountify Consultants                                                 CEO                    ac@GoDaddy.com         None          None                                      Acountify\n4      15426          adam benjamin                             chief executive officer           adamcbenjamin@gmail.com         None  +16263943364                               starke marketing"
+        },
+        {
+            "role": "user",
+            "content": "give me with contact details previous one"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId       person_full_name                                           job_title                      person_email person_phone person_mobile                              organization_name\n0     100190           aaron berman                             chief executive officer               berman.aj@gmail.com         None          None  the infinite monkey theorem. an urban winery.\n1     103346           Aaron Berson                   Chief Executive Officer | Founder        aaron@fringeaccounting.com         None          None                             Fringe Advisory Co\n2      99970          aaron samples  chief executive officer and member of the board of  aaron.samples@nationstarmail.com         None          None          first guaranty mortgage corporation\u00c2\u00ae\n3     103407  Acountify Consultants                                                 CEO                    ac@GoDaddy.com         None          None                                      Acountify\n4      15426          adam benjamin                             chief executive officer           adamcbenjamin@gmail.com         None  +16263943364                               starke marketing"
+        }
+    ],
+    "013c7df9-e9cf-4e9e-a1c2-30321c3c7468": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "d1ab8eac-5bf8-42e9-907f-880a9023e19b": [
+        {
+            "role": "user",
+            "content": "how are you?"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm just a program, but I'm here and ready to help you! How can I assist you today?"
+        }
+    ],
+    "c651a75e-05f2-4813-9333-467f5f447a81": [
+        {
+            "role": "user",
+            "content": "hello?"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "115ee06a-28f0-4fbe-9a34-be3bdf7fc1e9": [
+        {
+            "role": "user",
+            "content": "hello there!?"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "fc4b242a-a700-4566-b0b1-9614297a135c": [
+        {
+            "role": "user",
+            "content": "Tell me about profile data."
+        },
+        {
+            "role": "assistant",
+            "content": "Here are the tables and columns I can access:\n\n**dbo.ProfileData**\n- `ProfileId` (bigint)\n- `created_by` (varchar)\n- `created_on` (datetime)\n- `data_source` (varchar)\n- `person_profile_headline` (varchar)\n- `job_last_updated` (nvarchar)\n- `job_start_date` (nvarchar)\n- `job_summary` (nvarchar)\n- `job_title` (varchar)\n- `job_title_role` (varchar)\n- `job_title_sub_role` (varchar)\n- `job_title_levels` (varchar)\n- `organization_domain` (varchar)\n- `organization_email` (varchar)\n- `organization_email_status` (varchar)\n- `organization_email_validation_source` (varchar)\n- `organization_email_validation_date` (date)\n- `organization_email_last_opened_date` (datetime)\n- `organization_email_last_clicked_date` (datetime)\n- `organization_facebook_url` (varchar)\n- `organization_founded_year` (varchar)\n- `organization_location_address_line_2` (varchar)\n- `organization_location_city` (varchar)\n- `organization_location_city_state_country` (varchar)\n- `organization_location_continent` (varchar)\n- `organization_location_country` (varchar)\n- `organization_location_geo_code` (varchar)\n- `organization_location_postal_code` (varchar)\n- `organization_location_region` (varchar)\n- `organization_location_state_country` (varchar)\n- `organization_location_state_address` (varchar)\n- `organization_industries` (varchar)\n- `organization_linkedin_id` (varchar)\n- `organization_linkedin_url` (varchar)\n- `organization_name` (varchar)\n- `organization_phone` (varchar)\n- `organization_phone_status` (varchar)\n- `organization_phone_validation_source` (varchar)\n- `organization_phone_validation_date` (datetime)\n- `organization_phone_last_communicated_date` (datetime)\n- `organization_size` (varchar)\n- `organization_twitter_url` (varchar)\n- `person_birth_date` (varchar)\n- `person_birth_year` (varchar)\n- `person_email` (varchar)\n- `person_email_status` (varchar)\n- `person_email_validation_source` (varchar)\n- `person_email_validation_date` (datetime)\n- `person_email_last_opened_date` (datetime)\n- `person_email_last_clicked_date` (datetime)\n- `person_facebook_id` (varchar)\n- `person_facebook_url` (varchar)\n- `person_facebook_url_status` (varchar)\n- `person_facebook_url_validation_source` (varchar)\n- `person_facebook_url_validation_date` (datetime)\n- `person_facebook_username` (varchar)\n- `person_first_name` (varchar)\n- `person_gender` (varchar)\n- `person_github_url` (varchar)\n- `person_github_username` (varchar)\n- `person_industries` (varchar)\n- `person_inferred_salary` (varchar)\n- `person_inferred_years_experience` (varchar)\n- `person_interest` (varchar)\n- `person_last_name` (varchar)\n- `person_linkedin_connections` (varchar)\n- `person_linkedin_id` (varchar)\n- `person_linkedin_url` (varchar)\n- `person_linkedin_url_status` (varchar)\n- `person_linkedin_url_validation_source` (varchar)\n- `person_linkedin_url_validation_date` (datetime)\n- `person_linkedin_url_last_communicated_date` (datetime)\n- `person_linkedin_username` (varchar)\n- `person_location_address_line_2` (varchar)\n- `person_location_city` (varchar)\n- `person_location_city_status_country` (varchar)\n- `person_location_continent` (varchar)\n- `person_location_country` (varchar)\n- `person_location_geo_code` (varchar)\n- `person_location_last_updated` (varchar)\n- `person_location_state_country` (varchar)\n- `person_location_postal_code` (varchar)\n- `person_location_state` (varchar)\n- `person_location_street_address` (varchar)\n- `person_middle_initial` (varchar)\n- `person_middle_name` (varchar)\n- `person_mobile` (varchar)\n- `person_mobile_status` (varchar)\n- `person_mobile_validation_source` (varchar)\n- `person_mobile_validation_date` (datetime)\n- `person_mobile_last_communicated_date` (datetime)\n- `person_full_name` (varchar)\n- `person_phone` (varchar)\n- `person_phone_status` (varchar)\n- `person_phone_validation_source` (varchar)\n- `person_phone_validation_date` (datetime)\n- `person_phone_last_communicated_date` (datetime)\n- `person_raw_number` (varchar)\n- `person_skills` (nvarchar)\n- `person_twitter_url` (varchar)\n- `person_twitter_url_status` (varchar)\n- `person_twitter_url_validation_source` (varchar)\n- `person_twitter_url_validation_date` (datetime)\n- `person_twitter_username` (varchar)\n- `search_tags` (varchar)\n- `updated_by` (varchar)\n- `updated_on` (datetime)\n- `person_photo_url` (nvarchar)\n- `organization_phone_sanitized` (varchar)\n- `ConfidenceScore` (int)\n- `PersonEmailScore` (int)\n- `OrganisationEmailScore` (int)\n- `PersonPhoneScore` (int)\n- `PersonMobileScore` (int)\n- `OrganisationPhoneScore` (int)\n- `PersonLinkedInScore` (int)\n- `DataBatch` (varchar)\n- `person_email_opened` (bit)\n- `person_email_clicked` (bit)\n- `IsUnsubscribed` (bit)\n- `Unsubscribed_on` (datetime)\n- `person_twitter_followers` (int)\n- `person_twitter_createdon` (date)\n- `organization_email_clicked` (bit)\n- `organization_email_opened` (bit)\n\n"
+        },
+        {
+            "role": "user",
+            "content": "Now show me the people in California."
+        },
+        {
+            "role": "assistant",
+            "content": "An error occurred: The generated query was deemed unsafe."
+        }
+    ],
+    "e8949667-6d87-42c7-b1c9-7cf96fb222cd": [
+        {
+            "role": "user",
+            "content": "Show me the top 5 people in California with their job titles and email addresses."
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                                          job_title                 person_email\n0    sharmin sehat                         market development manager         shermin.sehat@kp.org\n1    steve heckler                      executive coach and president  steve_heckler@earthlink.net\n2      dawn liseth  manager, publishing operations and administration             dliseth@ngsp.com\n3    david whitson                                lighting technician      davidwhitson1@gmail.com\n4  dwight mcdowell                                              sales    mdmcdowells@sbcglobal.net"
+        }
+    ],
+    "cc736809-3dba-449c-aa32-99656ea77556": [
+        {
+            "role": "user",
+            "content": "Show me data from the Customers table."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        }
+    ],
+    "68e746ce-10d5-4234-a655-12f3ba776951": [
+        {
+            "role": "user",
+            "content": "Show me the top 10 people with their 'Address' column."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        }
+    ],
+    "370ab5ce-0c63-4ec4-98bc-e1f51e5e350e": [
+        {
+            "role": "user",
+            "content": "Tell me about profile data."
+        },
+        {
+            "role": "assistant",
+            "content": "Here are the tables and columns I can access:\n\n**dbo.ProfileData**\n- `ProfileId` (bigint)\n- `created_by` (varchar)\n- `created_on` (datetime)\n- `data_source` (varchar)\n- `person_profile_headline` (varchar)\n- `job_last_updated` (nvarchar)\n- `job_start_date` (nvarchar)\n- `job_summary` (nvarchar)\n- `job_title` (varchar)\n- `job_title_role` (varchar)\n- `job_title_sub_role` (varchar)\n- `job_title_levels` (varchar)\n- `organization_domain` (varchar)\n- `organization_email` (varchar)\n- `organization_email_status` (varchar)\n- `organization_email_validation_source` (varchar)\n- `organization_email_validation_date` (date)\n- `organization_email_last_opened_date` (datetime)\n- `organization_email_last_clicked_date` (datetime)\n- `organization_facebook_url` (varchar)\n- `organization_founded_year` (varchar)\n- `organization_location_address_line_2` (varchar)\n- `organization_location_city` (varchar)\n- `organization_location_city_state_country` (varchar)\n- `organization_location_continent` (varchar)\n- `organization_location_country` (varchar)\n- `organization_location_geo_code` (varchar)\n- `organization_location_postal_code` (varchar)\n- `organization_location_region` (varchar)\n- `organization_location_state_country` (varchar)\n- `organization_location_state_address` (varchar)\n- `organization_industries` (varchar)\n- `organization_linkedin_id` (varchar)\n- `organization_linkedin_url` (varchar)\n- `organization_name` (varchar)\n- `organization_phone` (varchar)\n- `organization_phone_status` (varchar)\n- `organization_phone_validation_source` (varchar)\n- `organization_phone_validation_date` (datetime)\n- `organization_phone_last_communicated_date` (datetime)\n- `organization_size` (varchar)\n- `organization_twitter_url` (varchar)\n- `person_birth_date` (varchar)\n- `person_birth_year` (varchar)\n- `person_email` (varchar)\n- `person_email_status` (varchar)\n- `person_email_validation_source` (varchar)\n- `person_email_validation_date` (datetime)\n- `person_email_last_opened_date` (datetime)\n- `person_email_last_clicked_date` (datetime)\n- `person_facebook_id` (varchar)\n- `person_facebook_url` (varchar)\n- `person_facebook_url_status` (varchar)\n- `person_facebook_url_validation_source` (varchar)\n- `person_facebook_url_validation_date` (datetime)\n- `person_facebook_username` (varchar)\n- `person_first_name` (varchar)\n- `person_gender` (varchar)\n- `person_github_url` (varchar)\n- `person_github_username` (varchar)\n- `person_industries` (varchar)\n- `person_inferred_salary` (varchar)\n- `person_inferred_years_experience` (varchar)\n- `person_interest` (varchar)\n- `person_last_name` (varchar)\n- `person_linkedin_connections` (varchar)\n- `person_linkedin_id` (varchar)\n- `person_linkedin_url` (varchar)\n- `person_linkedin_url_status` (varchar)\n- `person_linkedin_url_validation_source` (varchar)\n- `person_linkedin_url_validation_date` (datetime)\n- `person_linkedin_url_last_communicated_date` (datetime)\n- `person_linkedin_username` (varchar)\n- `person_location_address_line_2` (varchar)\n- `person_location_city` (varchar)\n- `person_location_city_status_country` (varchar)\n- `person_location_continent` (varchar)\n- `person_location_country` (varchar)\n- `person_location_geo_code` (varchar)\n- `person_location_last_updated` (varchar)\n- `person_location_state_country` (varchar)\n- `person_location_postal_code` (varchar)\n- `person_location_state` (varchar)\n- `person_location_street_address` (varchar)\n- `person_middle_initial` (varchar)\n- `person_middle_name` (varchar)\n- `person_mobile` (varchar)\n- `person_mobile_status` (varchar)\n- `person_mobile_validation_source` (varchar)\n- `person_mobile_validation_date` (datetime)\n- `person_mobile_last_communicated_date` (datetime)\n- `person_full_name` (varchar)\n- `person_phone` (varchar)\n- `person_phone_status` (varchar)\n- `person_phone_validation_source` (varchar)\n- `person_phone_validation_date` (datetime)\n- `person_phone_last_communicated_date` (datetime)\n- `person_raw_number` (varchar)\n- `person_skills` (nvarchar)\n- `person_twitter_url` (varchar)\n- `person_twitter_url_status` (varchar)\n- `person_twitter_url_validation_source` (varchar)\n- `person_twitter_url_validation_date` (datetime)\n- `person_twitter_username` (varchar)\n- `search_tags` (varchar)\n- `updated_by` (varchar)\n- `updated_on` (datetime)\n- `person_photo_url` (nvarchar)\n- `organization_phone_sanitized` (varchar)\n- `ConfidenceScore` (int)\n- `PersonEmailScore` (int)\n- `OrganisationEmailScore` (int)\n- `PersonPhoneScore` (int)\n- `PersonMobileScore` (int)\n- `OrganisationPhoneScore` (int)\n- `PersonLinkedInScore` (int)\n- `DataBatch` (varchar)\n- `person_email_opened` (bit)\n- `person_email_clicked` (bit)\n- `IsUnsubscribed` (bit)\n- `Unsubscribed_on` (datetime)\n- `person_twitter_followers` (int)\n- `person_twitter_createdon` (date)\n- `organization_email_clicked` (bit)\n- `organization_email_opened` (bit)\n\n"
+        }
+    ],
+    "9fe25a19-7752-407e-8288-f99fed7fc4bb": [
+        {
+            "role": "user",
+            "content": "what is the business development?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "73915beb-58ca-40cc-bcc5-027f85b8027e": [
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in middle east i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "45b0e5d4-93b1-4f3d-a6cf-05421e56b435": [
+        {
+            "role": "user",
+            "content": "i am software company owner in middle east i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "25562472-5c0f-4ff7-bfe5-5e4ff4ade064": [
+        {
+            "role": "user",
+            "content": "i am software company owner in middle east i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "12a53bf8-7a40-476e-b64a-4191e0b05158": [
+        {
+            "role": "user",
+            "content": "give me 10 software engineer work in google"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title\n0       3840        jason lee           software engineer and engineering manager\n1       7637  nicolas lacasse                                   software engineer\n2      13466       kunal arya                                   software engineer\n3      25146     david eustis  senior staff software engineer and google cloud ma\n4      28684         jim king                                   software engineer"
+        }
+    ],
+    "2b7e028b-224f-4c13-95a1-7ea6df783cb4": [
+        {
+            "role": "user",
+            "content": "give me 10 software engineer work in google with organisation name and contact"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title organization_name               person_email person_phone\n0       3840        jason lee           software engineer and engineering manager            google     jason.sj.lee@gmail.com         None\n1       7637  nicolas lacasse                                   software engineer            google  nicolas.lacasse@gmail.com         None\n2      13466       kunal arya                                   software engineer            google        kunalarya@gmail.com         None\n3      25146     david eustis  senior staff software engineer and google cloud ma            google      davideustis@gmail.com         None\n4      28684         jim king                                   software engineer            google         helltuna@gmail.com         None"
+        }
+    ],
+    "43f45024-53a7-4e36-8386-13c3e0fac658": [
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in middle east i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "1692d490-da07-4bfb-ae91-6da1825cf16a": [
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in usa i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name              job_title               person_email person_phone                                   organization_name organization_location_country organization_industries\n0  dwight mcdowell                  sales  mdmcdowells@sbcglobal.net         None                                            jcpenney                 united states                  retail\n1    denise friedl        sales associate             friedl@cox.net         None                                    the disney store                 united states                  retail\n2     gail capozzi        sales associate      gcapozzi@twcny.rr.com         None  ann inc. (parent company of ann taylor, loft & lou                 united states                  retail\n3    darnel jeanty        sales associate           darnelj@live.com         None                                         foot locker                 united states                  retail\n4   irving barajas  sales manager trainee          ibara614@uwsp.edu         None                                            jcpenney                 united states                  retail"
+        }
+    ],
+    "59c5196f-606e-4edd-9827-abe69ae94921": [
+        {
+            "role": "user",
+            "content": "imformation of dot net developer from USA"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId   person_full_name                  job_title          organization_name                    person_email person_phone\n0        472          dave kime         software developer    serverlogic corporation            davidrkime@gmail.com         None\n1        850        scott lemay  senior software developer                 iherb inc.            aaastlemay@gmail.com         None\n2       4620  nafiseh abolmaali         software developer  thatcher technology group     nafiseh.abolmaali@gmail.com         None\n3       4952   nathan lundquist         software developer                    docutap      nathan.lundquist@gmail.com         None\n4       6309    brittany morris         software developer        chenega corporation  brittany.morris@ust-global.com         None"
+        }
+    ],
+    "f58e7841-2323-442f-9487-3e1048d98528": [
+        {
+            "role": "user",
+            "content": " 10 list imformation of dot net developer from USA "
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                  job_title    organization_name          person_email person_phone\n0      63835     jason sheats             .net developer     bank independent  jason_sheats@oxy.com         None\n1     102003   mik romanikhin  .net developer, principal  njm insurance group   mromanikhin@njm.com         None"
+        }
+    ],
+    "77ebe678-32db-47d1-a0fd-dd05e31e675f": [
+        {
+            "role": "user",
+            "content": "imformation of dot net developer from USA "
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId   person_full_name                  job_title          organization_name                    person_email person_phone\n0        472          dave kime         software developer    serverlogic corporation            davidrkime@gmail.com         None\n1        850        scott lemay  senior software developer                 iherb inc.            aaastlemay@gmail.com         None\n2       4620  nafiseh abolmaali         software developer  thatcher technology group     nafiseh.abolmaali@gmail.com         None\n3       4952   nathan lundquist         software developer                    docutap      nathan.lundquist@gmail.com         None\n4       6309    brittany morris         software developer        chenega corporation  brittany.morris@ust-global.com         None"
+        }
+    ],
+    "5347893c-39d8-49e9-932d-0370d1b42b9a": [
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in usa i want to imporove my business give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name              job_title               person_email person_phone                                   organization_name organization_location_country organization_industries\n0  dwight mcdowell                  sales  mdmcdowells@sbcglobal.net         None                                            jcpenney                 united states                  retail\n1    denise friedl        sales associate             friedl@cox.net         None                                    the disney store                 united states                  retail\n2     gail capozzi        sales associate      gcapozzi@twcny.rr.com         None  ann inc. (parent company of ann taylor, loft & lou                 united states                  retail\n3    darnel jeanty        sales associate           darnelj@live.com         None                                         foot locker                 united states                  retail\n4   irving barajas  sales manager trainee          ibara614@uwsp.edu         None                                            jcpenney                 united states                  retail"
+        }
+    ],
+    "bc61c78f-b769-4044-908d-b6562ed38302": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "how are yoou?"
+        },
+        {
+            "role": "assistant",
+            "content": "I\u2019m just a program, but I\u2019m here and ready to help you! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 list of software engineer work in google"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title\n0       3840        jason lee           software engineer and engineering manager\n1       7637  nicolas lacasse                                   software engineer\n2      13466       kunal arya                                   software engineer\n3      25146     david eustis  senior staff software engineer and google cloud ma\n4      28684         jim king                                   software engineer"
+        },
+        {
+            "role": "user",
+            "content": "with contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title                    person_email person_phone person_mobile organization_name  rn\n0      49722      alex grosul                                   software engineer                grosul@gmail.com         None          None            google   1\n1      30105      andrew behn                            senior software engineer           andrew.behn@gmail.com         None          None            google   1\n2      28842   christopher lu                                   software engineer                chris@lulabs.net         None          None            google   1\n3      25146     david eustis  senior staff software engineer and google cloud ma           davideustis@gmail.com         None          None            google   1\n4      71251  david gilhooley                                   software engineer  david.gilhooley@sms-siemag.com         None          None            google   1"
+        }
+    ],
+    "57f0b401-b9f8-4cf8-856e-35b0a96df5ce": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "3dadbdfa-1200-4d6d-926f-29fe6b94e477": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "f95d9be1-80c7-4b79-a5f9-8a17f6a717a3": [
+        {
+            "role": "user",
+            "content": "how are you"
+        },
+        {
+            "role": "assistant",
+            "content": "I'm just a program, but I'm here and ready to help you! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "can you give the list of 10 people who work on google?"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name                                           job_title\n0       1273        jeff miner  regional experimentation lead, unskippable labs at\n1       1521  mark dochtermann                                       world changer\n2       3840         jason lee           software engineer and engineering manager\n3       6631        aster peng                              environmental champion\n4       7637   nicolas lacasse                                   software engineer"
+        },
+        {
+            "role": "user",
+            "content": "with contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name               person_email person_phone organization_name\n0       1273        jeff miner    jeffreyeminer@gmail.com         None            google\n1       1521  mark dochtermann  markdochtermann@gmail.com         None            google\n2       3840         jason lee     jason.sj.lee@gmail.com         None            google\n3       6631        aster peng        asterpeng@gmail.com         None            google\n4       7637   nicolas lacasse  nicolas.lacasse@gmail.com         None            google"
+        },
+        {
+            "role": "user",
+            "content": "what can i do with this data?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "hello"
+        },
+        {
+            "role": "assistant",
+            "content": "Hi there! How can I help you today?"
+        },
+        {
+            "role": "user",
+            "content": "who are you?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello again! How can I assist you today?"
+        }
+    ],
+    "a1dde129-e85e-4f3d-9246-d76fa4b02e3d": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "who are you?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 list of people who work with google"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name                                           job_title\n0       1273        jeff miner  regional experimentation lead, unskippable labs at\n1       1521  mark dochtermann                                       world changer\n2       3840         jason lee           software engineer and engineering manager\n3       6631        aster peng                              environmental champion\n4       7637   nicolas lacasse                                   software engineer"
+        },
+        {
+            "role": "user",
+            "content": "with contact details?"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name               person_email person_phone organization_name\n0       1273        jeff miner    jeffreyeminer@gmail.com         None            google\n1       1521  mark dochtermann  markdochtermann@gmail.com         None            google\n2       3840         jason lee     jason.sj.lee@gmail.com         None            google\n3       6631        aster peng        asterpeng@gmail.com         None            google\n4       7637   nicolas lacasse  nicolas.lacasse@gmail.com         None            google"
+        },
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in usa i want to improve my business give me some contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name               person_email person_phone              job_title                                   organization_name\n0  dwight mcdowell  mdmcdowells@sbcglobal.net         None                  sales                                            jcpenney\n1    denise friedl             friedl@cox.net         None        sales associate                                    the disney store\n2     gail capozzi      gcapozzi@twcny.rr.com         None        sales associate  ann inc. (parent company of ann taylor, loft & lou\n3    darnel jeanty           darnelj@live.com         None        sales associate                                         foot locker\n4   irving barajas          ibara614@uwsp.edu         None  sales manager trainee                                            jcpenney"
+        },
+        {
+            "role": "user",
+            "content": "contact only phone not email"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "0b8a6c04-8c7f-4b0b-81a8-d29fcfbd5d70": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "who are you?"
+        },
+        {
+            "role": "assistant",
+            "content": "I\u2019m a friendly AI assistant here to help you with questions about profile data management. How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "what are the functionality you have?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hi again! How can I help you today?"
+        }
+    ],
+    "abb0a4af-00f9-40fe-867c-56e57afa318d": [
+        {
+            "role": "user",
+            "content": "Show me data from the Customers table."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        }
+    ],
+    "81632d1c-56f7-4033-a534-5a4a047945e0": [
+        {
+            "role": "user",
+            "content": "Show me the 'Address' column from the ProfileData table."
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        }
+    ],
+    "7df86d06-99f3-4f34-b362-fc30e2ab2724": [
+        {
+            "role": "user",
+            "content": "Show me data from dbo.DummyTable"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        }
+    ]
+}

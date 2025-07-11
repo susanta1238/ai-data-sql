@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pyodbc
+openai
+PyYAML
+python-dotenv
+pandas
+sqlglot
+streamlit
+requests
