@@ -486,5 +486,105 @@
             "role": "assistant",
             "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
         }
+    ],
+    "14b127c9-7b38-490b-9d99-3a28b1b0af85": [
+        {
+            "role": "user",
+            "content": "List 10 people who work at Google."
+        },
+        {
+            "role": "assistant",
+            "content": "An error occurred: The generated query was deemed unsafe."
+        }
+    ],
+    "a23efd7b-e520-4b88-b01b-cd3049839da5": [
+        {
+            "role": "user",
+            "content": "List 10 people who work at Google."
+        },
+        {
+            "role": "assistant",
+            "content": "An error occurred: The generated query was deemed unsafe."
+        }
+    ],
+    "101a196d-c1e0-4879-a6ce-6010d68256c5": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "c6d0193d-3e8e-4944-8032-9683bf99f1c9": [
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in middle east i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "4114ff83-0bfc-46fe-8ace-01a294f83e50": [
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in usa i wan groww my businees give me some data"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name              job_title               person_email person_phone                                   organization_name organization_location_country organization_industries\n0  dwight mcdowell                  sales  mdmcdowells@sbcglobal.net         None                                            jcpenney                 united states                  retail\n1    denise friedl        sales associate             friedl@cox.net         None                                    the disney store                 united states                  retail\n2     gail capozzi        sales associate      gcapozzi@twcny.rr.com         None  ann inc. (parent company of ann taylor, loft & lou                 united states                  retail\n3    darnel jeanty        sales associate           darnelj@live.com         None                                         foot locker                 united states                  retail\n4   irving barajas  sales manager trainee          ibara614@uwsp.edu         None                                            jcpenney                 united states                  retail"
+        }
+    ],
+    "0f299d4f-2282-4938-b2b3-893e2b4d2839": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 list of people who work with adobe"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId    person_full_name                                           job_title\n0       3277     daniel stockman  senior enterprise account executive - experience c\n1       8892  russell whitchurch                                    technical writer\n2      14308         larry casey     senior director, commerce and platform services\n3      19758      martyn sherman                      mgr, data center operations na\n4      24479          roger beus                                  demo tools manager"
+        },
+        {
+            "role": "user",
+            "content": "with contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId    person_full_name                                           job_title                      person_email person_phone                             person_linkedin_url\n0       3277     daniel stockman  senior enterprise account executive - experience c  daniel.tucker.stockman@gmail.com         None    https://linkedin.com/in/danieltuckerstockman\n1       8892  russell whitchurch                                    technical writer            russell@whitchurch.net         None               https://linkedin.com/in/gigazelle\n2      14308         larry casey     senior director, commerce and platform services       linkedin@thecaseyfamily.com         None                 https://linkedin.com/in/lrcasey\n3      19758      martyn sherman                      mgr, data center operations na          martyn.sherman@gmail.com         None  https://linkedin.com/in/martyn-sherman-b489769\n4      24479          roger beus                                  demo tools manager             roger.beus@oracle.com         None      https://linkedin.com/in/roger-beus-81a9815"
+        },
+        {
+            "role": "user",
+            "content": "with organisation"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId    person_full_name                                           job_title                      person_email person_phone organization_name                             person_linkedin_url\n0       3277     daniel stockman  senior enterprise account executive - experience c  daniel.tucker.stockman@gmail.com         None             adobe    https://linkedin.com/in/danieltuckerstockman\n1       8892  russell whitchurch                                    technical writer            russell@whitchurch.net         None             adobe               https://linkedin.com/in/gigazelle\n2      14308         larry casey     senior director, commerce and platform services       linkedin@thecaseyfamily.com         None             adobe                 https://linkedin.com/in/lrcasey\n3      19758      martyn sherman                      mgr, data center operations na          martyn.sherman@gmail.com         None             adobe  https://linkedin.com/in/martyn-sherman-b489769\n4      24479          roger beus                                  demo tools manager             roger.beus@oracle.com         None             adobe      https://linkedin.com/in/roger-beus-81a9815"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello again! How can I help you?"
+        },
+        {
+            "role": "user",
+            "content": "who are you?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
     ]
 }

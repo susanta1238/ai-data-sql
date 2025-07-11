@@ -1,4 +1,10 @@
 # main.py
+
+# --- DIAGNOSTIC STEP: Add a unique print statement AT THE VERY TOP ---
+print("DEBUG: Loading main.py - Version Check 13") # Increment main.py version
+# --- END ADDITION ---
+
+
 import uvicorn
 import logging
 import sys
@@ -16,8 +22,10 @@ try:
     from integrations.database.sql_safety import SQLSafetyChecker
     from integrations.database.query_executor import QueryExecutor # Needed for dependency in routes
 
-    # Import the built-in ConnectionError exception
-    from builtins import ConnectionError
+    # --- Import ConversationManager ---
+    from core.conversation_manager import ConversationManager
+
+    from builtins import ConnectionError # Built-in exception
 
     # Get module logger here AFTER imports
     # This logger instance will be used throughout the module
@@ -43,10 +51,17 @@ class AppState:
         self.schema_loader: SchemaLoader | None = None
         self.openai_client: OpenAIClient | None = None
         self.sql_safety_checker_instance: SQLSafetyChecker | None = None
-        # TODO: Add conversation_manager_instance
+        # --- Add conversation_manager_instance attribute to state object ---
+        self.conversation_manager_instance: ConversationManager | None = None
+
 
 # Create a single instance of the state object at module level
+# This instance will be modified in the startup event
 app_state = AppState()
+
+# --- Global Conversation Manager Instance (Managed via state object) ---
+# --- REMOVE the separate global variable definition ---
+# conversation_manager_instance: ConversationManager | None = None # <--- DELETE THIS LINE
 
 
 # --- FastAPI Application Instance ---
@@ -64,21 +79,21 @@ app = FastAPI(
 async def startup_event():
     """
     Handles application startup: loads config, sets up logging,
-    initializes database and OpenAI clients, loads schema, initializes safety checker.
-    Initializes services *into the app_state object*.
+    initializes database and OpenAI clients, loads schema, initializes safety checker,
+    initializes conversation manager.
+    Initializes services into the app_state object.
     """
-    # Declare globals that will be assigned *to* within this function (attributes of app_state)
+    # Declare app_state as global since we are modifying its attributes
+    global app_state
     # No need to declare 'logger' as global, it's a module-level variable being used.
-    global app_state # Declare app_state as global since we are modifying its attributes
-
 
     # Use the module-level logger directly. This is the first place logger is used.
-    # The UnboundLocalError traceback points to this line.
+    # The UnboundLocalError traceback points to this line (or very close to it depending on file version).
     # This happens if there's a later assignment to 'logger' in this function's scope.
-    logger.info("Application startup started.")
+    logger.info("Application startup started.") # This line must use the module-level logger
 
     try:
-        # 1. Load Configuration
+        # 1. Load Configuration (into state object)
         app_state.app_config = load_config()
         logger.info("Configuration loaded.") # Use the module-level logger
 
@@ -87,14 +102,16 @@ async def startup_event():
         # The 'logger' instance obtained at the top will automatically use this configuration.
         setup_logging(app_state.app_config)
         # --- CRITICAL FIX: DELETE THIS LINE! It causes the UnboundLocalError ---
+        # This assignment makes 'logger' local to this function, causing the error
+        # when the line above it is executed before this assignment.
         # If this line exists in your main.py startup_event function, DELETE IT.
-        # logger = logging.getLogger(__name__) # <-- This line is the problem
+        # logger = logging.getLogger(__name__) # <-- THIS LINE MUST BE DELETED
 
-        logger.info("Logging setup complete.") # This uses the now fully configured logger
+        logger.info("Logging setup complete.") # This uses the now fully configured module-level logger
         logger.info("Configuration and Logging setup complete.")
 
 
-        # 3. Initialize Database Connector
+        # 3. Initialize Database Connector (into state object)
         try:
             app_state.db_connector = DatabaseConnector(app_state.app_config)
             logger.info("DatabaseConnector initialized successfully.") # Use the module-level logger
@@ -109,7 +126,7 @@ async def startup_event():
              logger.warning("Database connection failed unexpectedly. Database features will be unavailable.") # Use the module-level logger
 
 
-        # 4. Initialize Schema Loader
+        # 4. Initialize Schema Loader (into state object)
         if app_state.db_connector: # Check attribute of state object
             try:
                 app_state.schema_loader = SchemaLoader(app_state.db_connector)
@@ -123,7 +140,7 @@ async def startup_event():
              logger.warning("Skipped SchemaLoader initialization because DatabaseConnector failed.") # Use the module-level logger
 
 
-        # 5. Initialize OpenAI Client
+        # 5. Initialize OpenAI Client (into state object)
         try:
             app_state.openai_client = OpenAIClient(app_state.app_config)
             logger.info("OpenAIClient initialized successfully.") # Use the module-level logger
@@ -134,7 +151,7 @@ async def startup_event():
              app_state.openai_client = None
              logger.warning("OpenAIClient initialization failed. OpenAI features will be unavailable.") # Use the module-level logger
 
-        # 6. Initialize SQL Safety Checker
+        # 6. Initialize SQL Safety Checker (into state object)
         try:
             app_state.sql_safety_checker_instance = SQLSafetyChecker(app_state.app_config)
             logger.info("SQLSafetyChecker initialized successfully.") # Use the module-level logger
@@ -144,10 +161,15 @@ async def startup_event():
              logger.warning("SQL safety checker initialization failed. Cannot safely execute queries.") # Use the module-level logger
 
 
-        # 7. Initialize Conversation Manager (Placeholder)
-        # TODO: Initialize ConversationManager here
-        # app_state.conversation_manager_instance = ConversationManager(...)
-        # logger.info("ConversationManager initialized.") # Use the module-level logger
+        # --- 7. Initialize Conversation Manager (into state object attribute) ---
+        try:
+            # The ConversationManager __init__ calls _load_history
+            app_state.conversation_manager_instance = ConversationManager() # Initialize and assign to state attribute
+            logger.info("ConversationManager initialized successfully.") # Use the module-level logger
+        except Exception as e:
+             logger.error(f"Failed to initialize ConversationManager: {e}", exc_info=True) # Use the module-level logger
+             app_state.conversation_manager_instance = None # Assign None to state attribute on failure
+             logger.warning("Conversation manager initialization failed. Conversation history will not work.")
 
 
         logger.info("Application startup finished.") # Use the module-level logger
@@ -158,6 +180,7 @@ async def startup_event():
         if logger.handlers: # Check if logging is configured with handlers
             logger.critical(f"An unhandled critical error occurred during application startup: {e}", exc_info=True)
         else:
+            # Fallback print if logging setup failed
             print(f"FATAL ERROR: An unhandled critical error occurred during application startup before logging was configured: {e}", file=sys.stderr)
 
         # Decide how to handle this critical startup failure based on deployment
@@ -166,15 +189,23 @@ async def startup_event():
 
 
 # --- Application Shutdown Event ---
-# This function runs asynchronously when uvicorn receives a shutdown signal
 @app.on_event("shutdown")
 async def shutdown_event():
     """
-    Handles application shutdown: cleans up resources.
+    Handles application shutdown: cleans up resources, saves history.
     """
     logger.info("Application shutdown started.") # Use the module-level logger
-    # TODO: Add cleanup logic here
-    logger.info("Application shutdown finished.") # Use the module-level logger
+    # --- Save history on shutdown ---
+    # Access the manager instance from the state object
+    if app_state.conversation_manager_instance:
+        try:
+            app_state.conversation_manager_instance.save_history()
+            logger.info("Conversation history saved on shutdown.")
+        except Exception as e:
+             logger.error(f"Failed to save conversation history on shutdown: {e}", exc_info=True)
+             # Decide if save failure should prevent shutdown or just log
+
+    logger.info("Application shutdown finished.")
 
 
 # --- Include API Routes ---
@@ -186,12 +217,12 @@ app.include_router(api_router) # Include the router in the app instance
 
 
 # --- Health Check Endpoint ---
-# The health check can stay here as it uses the app_state object directly
+# The health check stays here, accessing state via app_state attributes
 @app.get("/health", status_code=status.HTTP_200_OK)
 async def health_check():
     """
     Basic health check endpoint.
-    Reports status of core dependencies (Database, OpenAI, SQL Safety Checker).
+    Reports status of core dependencies (Database, OpenAI, SQL Safety Checker, Conversation Manager).
     Returns 200 OK if healthy or degraded, 503 Service Unavailable if critical dependencies failed.
     """
     # Access state via the module-level app_state object
@@ -209,7 +240,6 @@ async def health_check():
         details["schema_loader"] = "failed_init"
 
     # Check OpenAI Client status from state object
-    # Also check if app_config (on state) is available before accessing its openai attribute
     if app_state.openai_client is None or not (app_state.app_config and app_state.app_config.openai.get('api_key')):
          health_status = "degraded" if health_status == "healthy" else "unhealthy"
          details["openai"] = "unavailable"
@@ -218,6 +248,11 @@ async def health_check():
     if app_state.sql_safety_checker_instance is None: # Safety checker is critical for query execution
          health_status = "unhealthy" # Critical dependency failure
          details["sql_safety_checker"] = "failed_init"
+
+    # Check ConversationManager status from state object
+    if app_state.conversation_manager_instance is None: # Check attribute on state object
+         health_status = "unhealthy" # Consider critical if history required
+         details["conversation_manager"] = "failed_init"
 
 
     if health_status == "healthy":
@@ -242,13 +277,9 @@ if __name__ == "__main__":
     port = int(os.environ.get("API_PORT", 8000))
     uvicorn_log_level = os.environ.get("UVICORN_LOG_LEVEL", "info").lower()
 
-    # Log that we are starting uvicorn (this uses the logger initialized at the top)
     logger.info(f"Attempting to start FastAPI application with uvicorn on http://{host}:{port}")
 
     try:
-        # Start the uvicorn server.
-        # The 'app' object defined above is passed to uvicorn.
-        # uvicorn will automatically trigger the 'startup' and 'shutdown' events.
         uvicorn.run(app, host=host, port=port, log_level=uvicorn_log_level)
     except Exception as e:
         print(f"FATAL ERROR: An error occurred during uvicorn execution: {e}", file=sys.stderr)
