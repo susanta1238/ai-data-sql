@@ -1,7 +1,10 @@
 # integrations/database/sql_safety.py
 
 # --- DIAGNOSTIC STEP: Add a unique print statement AT THE VERY TOP ---
-print("DEBUG: Loading integrations/database/sql_safety.py - Version Check 26") # Increment version
+# Add this line to help debug if this specific file version is being loaded.
+# If this message doesn't appear in your terminal logs during startup or test,
+# it means an older version of this file is being used due to caching or other environmental issue.
+print("DEBUG: Loading integrations/database/sql_safety.py - Version Check 25") # Increment version
 # --- END ADDITION ---
 
 
@@ -10,7 +13,8 @@ import sqlglot
 import sqlglot.errors
 import sqlglot.expressions # Import expressions module to check types and walk AST
 import sys # Import sys for test block
-from typing import List, Dict, Any, Optional, Tuple # Import Tuple
+from typing import List, Dict, Any, Optional # Import typing for type hints
+
 
 logger = logging.getLogger(__name__) # Get logger at module level
 
@@ -18,26 +22,33 @@ class SQLSafetyChecker:
     """
     Validates and sanitizes generated SQL queries for safety.
     Includes checks for disallowed keywords, multiple statements,
-    disallowed statement types, TOP/LIMIT limits, and schema validation.
+    disallowed statement types, TOP/LIMIT limits, and (optionally) schema validation.
     """
     def __init__(self, config=None):
         """
         Initializes the checker with application configuration if needed.
         """
-        self.config = config
+        self.config = config # Store config if validation rules depend on it
         logger.info("SQLSafetyChecker initialized.")
 
         # Define disallowed SQL patterns or keywords (used for quick initial check)
+        # Rely more on the parser for statement types (DROP, DELETE, UPDATE, etc.)
+        # Rely on multi-statement check for ';' and comments.
+        # Focus this list on dangerous functions or patterns unlikely in a valid SELECT.
         self.DISALLOWED_KEYWORDS = [
-            "xp_", "sp_",
-            "WAITFOR DELAY", "BENCHMARK",
+            "xp_", "sp_", # Stored procedures, especially system ones like xp_cmdshell
+            "WAITFOR DELAY", "BENCHMARK", # Time-based attacks or denial-of-service
+            # You could add other specific dangerous functions here if known for your DB
+            # e.g., "BULK INSERT"
         ]
 
         # Define statement types allowed (using sqlglot expression class names)
+        # Map string names to sqlglot classes for robust type checking
         self.ALLOWED_STATEMENT_CLASSES = {
             "SELECT": sqlglot.expressions.Select
-        }
+        } # Only allow SELECT queries by default
 
+        # Define limits (e.g., max joins, max rows using LIMIT/TOP)
         self.MAX_JOINS = 5 # Example limit (requires AST traversal implementation)
         self.MAX_ROWS_FETCH = 1000 # Recommend limiting results if TOP/LIMIT is used
 
@@ -50,7 +61,7 @@ class SQLSafetyChecker:
             sql_query (str): The SQL query string to check.
             schema_info (dict, optional): Dictionary containing database schema.
                                            Expected format: { 'schema.table': ['column1 (type)', 'column2 (type)'], ... }
-                                           Used for context-aware validation (e.g., checking if tables/columns exist and are in scope).
+                                           Used for context-aware validation (e.g., checking if tables/columns exist).
                                            Pass this from the SchemaLoader results.
 
         Returns:
@@ -86,7 +97,7 @@ class SQLSafetyChecker:
             # Handle case where parse returns empty list (e.g., only comments or whitespace, now caught earlier)
             if not expressions:
                  logger.warning("SQL safety check failed: No executable statement found after parsing.")
-                 return False
+                 return False # This should be rare due to prior strip and keyword checks
 
 
             # Get the single parsed statement
@@ -136,7 +147,7 @@ class SQLSafetyChecker:
 
                 # Check for excessive joins (example - requires AST traversal implementation)
                 # joins_count = 0
-                # for walk_item in parsed_query.walk():
+                # for walk_item in parsed_query.walk(): # Use the correct walk iteration
                 #    node = walk_item[0]
                 #    if isinstance(node, sqlglot.expressions.Join):
                 #        joins_count += 1
@@ -171,7 +182,7 @@ class SQLSafetyChecker:
         logger.debug("SQL query passed safety checks.")
         return True
 
-    # --- Helper method for schema validation (Corrected and Expanded) ---
+    # --- Helper method for schema validation (Corrected walk() iteration) ---
     def _validate_schema_elements(self, parsed_query: sqlglot.expressions.Expression, schema_info: dict) -> bool:
        """
        Traverses parsed query AST and checks if tables and columns exist in schema_info.
@@ -190,22 +201,24 @@ class SQLSafetyChecker:
        # Store lowercase column names in a set for quick lookup
        all_schema_column_names = {col.split(' ')[0].lower() for cols in schema_info.values() for col in cols}
 
-       # Track column names seen in the query
-       referenced_column_names_in_query = set()
+       referenced_column_names_in_query = set() # Track column names seen in the query
+
 
        # Walk the Abstract Syntax Tree (AST) of the parsed query
-       # walk() yields (node, parent, key) tuples for children, but (root_node,) for the root.
-       # Iterate and handle the structure defensively.
+       # Iterate over walk() results.
+       # walk() yields (node, parent, key) for children, but (root_node,) for the root.
        for walk_item in parsed_query.walk():
            # --- FIX: Safely unpack the walk_item and check type ---
            # Check if the yielded item is a tuple before trying to get parent/key
            node = walk_item[0] # The node is always the first item
 
            # Safely get parent and key; they might not be present if walk_item is not a tuple
+           # Check if walk_item is a tuple before accessing elements beyond index 0
            parent = walk_item[1] if isinstance(walk_item, tuple) and len(walk_item) > 1 else None
            key = walk_item[2] if isinstance(walk_item, tuple) and len(walk_item) > 2 else None
 
            # --- END FIX ---
+
 
            # Only process if the node is a sqlglot Expression (filter out potential other types from walk)
            if not isinstance(node, sqlglot.expressions.Expression):

@@ -255,7 +255,7 @@ class ConversationPipeline:
 
                 # Return a canned response or a general AI response if appropriate
                 # Can optionally use OpenAI for a more general response here if needed (but check openai_client availability)
-                response = {'type': 'text', 'content': "I can help you with questions about our data. What information are you looking for?"}
+                response = {'type': 'text', 'content': "Hello! How can I assist you today? Are you looking to find some business contacts?"}
 
             else:
                 logger.error(f"Unknown intent returned by classifier: {intent}")
@@ -812,6 +812,8 @@ WHERE rn = 1;"""},
         # Example prompt structure:
         system_instructions = f"""You are a helpful assistant that writes T-SQL queries for a SQL Server database.
 Your task is to convert natural language questions into T-SQL queries based on the provided schema, conversation history, and examples.
+your name leadnova ai assistant ai marketor 
+remember dont expose where you foind the data to the user always told to the user what the data you showiing as per user need that are upto date by the team
 
 The database schema is:
 {formatted_schema}

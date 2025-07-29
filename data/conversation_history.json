@@ -586,5 +586,1003 @@
             "role": "assistant",
             "content": "I can help you with questions about our data. What information are you looking for?"
         }
+    ],
+    "14188fc4-dcb9-4da6-9371-c84d7c5d4579": [
+        {
+            "role": "user",
+            "content": "hello"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "can you give investor data "
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId   person_full_name                                job_title                         person_email         organization_name\n0        453         john janis                        parole manager ii                   jjanis@state.pa.us        commonwealth of pa\n1       1280        luke jacobi                   director of operations                   lbjacobi@umich.edu                  benzinga\n2       8128       lynne tarman                                    owner           lynne_tarman@optonline.net  alliance financial group\n3       8382  christopher kurtz                  vice president, finance  christopher.kurtz@inginvestment.com    nn investment partners\n4      10850      rachel galvin  administrative assistant and operations         rachel_galvin@rocketmail.com     atwood & palmer, inc."
+        },
+        {
+            "role": "user",
+            "content": "with facebook"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        },
+        {
+            "role": "user",
+            "content": "with facebook url"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "can you give investor data with facebook"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name job_title                   person_email                   person_facebook_url       organization_name\n0      casber wang  investor              casberw@gmail.com      https://facebook.com/casber.wang  sapphire ventures, llc\n1     andrew camel  investor              acamela@gmail.com   https://facebook.com/andrew.c.camel   brighton park capital\n2       vinay shah  investor    vinay.mukesh.shah@gmail.com     https://facebook.com/vinay.m.shah  transformation capital\n3   stefan fischer  investor     stefan.u.fischer@gmail.com  https://facebook.com/stefan.fischer2           family office\n4        beau wall  investor  beauwall@diamond-wireless.com     https://facebook.com/xbeauthomasx                    None"
+        },
+        {
+            "role": "user",
+            "content": "I want to reach out with web developers, can you give me some data with Linkedin account?"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                                           job_title                      person_email                               person_linkedin_url           organization_name\n0  thomas freeberg                                senior web developer         thomas@thomasfreeberg.com   https://linkedin.com/in/thomas-freeberg-332b6ba  purple communications, inc\n1     michael kyle                                  lead web developer          michael.kyle.m@gmail.com     https://linkedin.com/in/michael-kyle-7b809715                 coolblueweb\n2  jordan whiteley  senior web developer and project and technology le  jordan.whiteley@inetsolution.com  https://linkedin.com/in/jordan-whiteley-99253090                   bizstream\n3     melaku tsige                                       web developer           melaku.demsis@gmail.com     https://linkedin.com/in/melaku-tsige-5a0b1241                       ihrdc\n4  raymond ciccone                                       web developer      raymond.ciccone@setfocus.com   https://linkedin.com/in/raymond-ciccone-0a42249                  parishsoft"
+        },
+        {
+            "role": "user",
+            "content": "can you give me the 10 employe list who work with adobe"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId    person_full_name                                           job_title                      person_email organization_name\n0       3277     daniel stockman  senior enterprise account executive - experience c  daniel.tucker.stockman@gmail.com             adobe\n1       8892  russell whitchurch                                    technical writer            russell@whitchurch.net             adobe\n2      14308         larry casey     senior director, commerce and platform services       linkedin@thecaseyfamily.com             adobe\n3      19758      martyn sherman                      mgr, data center operations na          martyn.sherman@gmail.com             adobe\n4      24479          roger beus                                  demo tools manager             roger.beus@oracle.com             adobe"
+        },
+        {
+            "role": "user",
+            "content": "with mobile number"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "with contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "2586d0fd-b790-4b14-b738-b3c0085d420d": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "give me 1o0 list of investor"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId   person_full_name                                job_title         organization_name                         person_email\n0        453         john janis                        parole manager ii        commonwealth of pa                   jjanis@state.pa.us\n1       1280        luke jacobi                   director of operations                  benzinga                   lbjacobi@umich.edu\n2       8128       lynne tarman                                    owner  alliance financial group           lynne_tarman@optonline.net\n3       8382  christopher kurtz                  vice president, finance    nn investment partners  christopher.kurtz@inginvestment.com\n4      10850      rachel galvin  administrative assistant and operations     atwood & palmer, inc.         rachel_galvin@rocketmail.com"
+        },
+        {
+            "role": "user",
+            "content": "with location"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name job_title        organization_name person_email person_location_city person_location_country  rn\n0     132444             None      None                     None         None                 None                    None   1\n1     103726     Aaditya Jain  Investor            Spark Capital         None             New York           United States   1\n2     103728       Aahan Naik  Investor                 Mubadala         None          Los Angeles           United States   1\n3     103730    Aaron Brenner  Investor  Tiger Global Management         None             New York           United States   1\n4     103732  Aaron Childress  Investor             Samsung Next         None               Irvine           United States   1"
+        },
+        {
+            "role": "user",
+            "content": "with contact number"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        },
+        {
+            "role": "user",
+            "content": "with phone number"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        },
+        {
+            "role": "user",
+            "content": "with contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   person_full_name                                           job_title                   organization_name                    person_email person_phone             person_location_city person_location_country\n0     laura spiller  vice president, investor relations and business de                the blackstone group     laura.spiller@villanova.edu         None                         new york           united states\n1     Karen Troiani    Sr. Administrative Assistant, Investor Relations                          Sallie Mae           ketroiani@verizon.net         None  Newark, Delaware, United States           united states\n2     Todd Phillips                              Chief Strategy Officer           Providence Tax & Advisory    Todd.Phillips@rejournals.com         None                      Minneapolis           United States\n3  Tiffany Phillips                             Chief Executive Officer             Phillips Business Group  tiffany@tiffanyphillipscpa.com         None                          Houston           United States\n4      Tamika Aiken                                                 CEO  Aiken Tax & Business Services  LLC    tamika.aiken@aikentaxcpa.com         None                           Smyrna           United States"
+        },
+        {
+            "role": "user",
+            "content": "only person phone"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "i am a software engineer in usa I want to change my company can you give me some data?"
+        },
+        {
+            "role": "assistant",
+            "content": "    person_full_name              job_title              organization_name                 person_email person_phone\n0    eric christeson      software engineer  north dakota state university  eric.j.christeson@gmail.com         None\n1          dave kime     software developer        serverlogic corporation         davidrkime@gmail.com         None\n2      david heimann  developer at infrared                      infrared5        dvd.heimann@gmail.com         None\n3  mithun manivannan      software engineer                       opendoor          mithunm93@gmail.com         None\n4        justin wong      software engineer                      microsoft           jcwong87@gmail.com         None"
+        }
+    ],
+    "92af9d19-5187-4c6e-bf79-4183746e3ae7": [
+        {
+            "role": "user",
+            "content": ""
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "e99902cf-7ca9-4c3c-a55d-980d454834ed": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "1a19f3c0-af1a-446c-8978-47a547e86862": [
+        {
+            "role": "user",
+            "content": "HI"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "I NEED 10 DEVELOPER LIST WHO WORK WITH MICROSOFT"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                 job_title\n0        590      justin wong         software engineer\n1       7258   ben kaizi-lutu       engineering manager\n2       7972  rajarshi sahani       software engineer 2\n3      16374    juri guljajev  senior software engineer\n4      30142       joshua fox         customer engineer"
+        },
+        {
+            "role": "user",
+            "content": "What is leadnova all about?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "I AM BIKE SHOP OWNER IN USA I WANT TO GROW MY BUSINESS GIVE ME SOME SUGGESTION"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "I AM BIKE SHOP OWNER IN USA I WANT TO GROW MY BUSINESS GIVE ME SOME CONTACTS"
+        },
+        {
+            "role": "assistant",
+            "content": "       person_full_name                                           job_title                 person_email person_phone     organization_name\n0       dwight mcdowell                                               sales    mdmcdowells@sbcglobal.net         None              jcpenney\n1        debbie brandel  administrative assistant and marketing coordinator  dbrandel@greatrivertech.net         None  great river learning\n2        jared schulman                     senior director, platform sales       jared.schulman@xad.com         None           groundtruth\n3  robin jones-williams          j r watkins products sales and information       rjones0730@comcast.net         None               watkins\n4           adam shouse                     business development consultant              shousea@uni.edu         None      us cargo control"
+        },
+        {
+            "role": "user",
+            "content": "WHAT IS BIZ DATA?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "SSMS"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "what can i do with this data?"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "1ab22ee2-2053-40e5-80a2-5283d52dd6b1": [
+        {
+            "role": "user",
+            "content": "what is lead nova ia"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "766affcd-f4b6-4bfe-8e5e-a7b40251bec1": [
+        {
+            "role": "user",
+            "content": "give 10 hr lisst "
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                      job_title                                   organization_name  rn\n0      87512    adrian reeves                                human resources             u.s. securities and exchange commission   1\n1     112242     Ahmed Hassan  Managing Director (Owner) / Sr. HR Consultant  RHR - Resourcing and Human Resources Services DMCC   1\n2      34746   amanda engvall          executive team leader human resources                                              target   1\n3      65981       amy rosado                                human resources                          lee memorial health system   1\n4      68012     ana bradshaw      human resources assistant to the director                                 city of san antonio   1"
+        }
+    ],
+    "815ae107-e5c7-46db-acfe-cf170db3d138": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "c1e868ca-c3fa-4778-9c00-7a38625197cf": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "who are u"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "i need 10 ceo data of usa"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                  job_title               person_email person_phone                         organization_name\n0        713     nadeem malik                 co-chief executive officer          nhmalik@gmail.com         None                  genetics & ivf institute\n1       2275    arvind sharma  chief executive officer at it convergence  arvind.k.sharma@gmail.com         None                            it convergence\n2       2988        greg gill      president and chief executive officer           gwgill@covad.net         None  action air conditioning, heating & solar\n3       3251        brent eck      president and chief executive officer           brenteck@mac.com         None                                metagenics\n4       3289    jessica moore          owner and chief executive officer   jmoore@amsconsulting.com         None                            jessmo designs"
+        },
+        {
+            "role": "user",
+            "content": "with out contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId       person_full_name                                           job_title                              organization_name\n0     100190           aaron berman                             chief executive officer  the infinite monkey theorem. an urban winery.\n1     103346           Aaron Berson                   Chief Executive Officer | Founder                             Fringe Advisory Co\n2      99970          aaron samples  chief executive officer and member of the board of          first guaranty mortgage corporation\u00c2\u00ae\n3     103407  Acountify Consultants                                                 CEO                                      Acountify\n4      15426          adam benjamin                             chief executive officer                               starke marketing"
+        },
+        {
+            "role": "user",
+            "content": "person having valid mobile number"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                 job_title  organization_name person_mobile  rn\n0      15426    adam benjamin                   chief executive officer   starke marketing  +16263943364   1\n1      78157        bev upton                   chief executive officer   haggai institute  +14043233355   1\n2      44839        bob pryor  chief executive officer at ntt data, inc  ntt data services  +12145432941   1\n3      30614     falon fatemi       chief executive officer and founder            node.io  +16509960279   1\n4      37520    janet comenos    co-founder and chief executive officer      spotted, inc.  +19785904655   1"
+        }
+    ],
+    "001": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hi again! How can I help you?"
+        },
+        {
+            "role": "user",
+            "content": "I need to find more leads for my business."
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "i want to talk to project managers. get me 15 of them.software development companies"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        },
+        {
+            "role": "user",
+            "content": "10 project manager based in usa"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId      person_full_name                                       job_title          organization_name\n0        401  Brenda Cleevely, PMP  IT Program & Project Manager for Manufacturing             General Motors\n1        726     alexandr zaznobin                    construction project manager  enwave energy corporation\n2        832        robert o'brien                                 project manager         the richmond group\n3       1762          todd hampton                                 project manager           day & zimmermann\n4       1876      margret anderson                      enterprise project manager               sportsengine"
+        },
+        {
+            "role": "user",
+            "content": "with email id"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                         job_title                person_email         organization_name  rn\n0     100124  aaron schneider          regional manager, senior project manager       aschneider@glumac.com                    glumac   1\n1      92627    abby krupnick  project manager, partner strategy and operations           abbypdk@gmail.com                   hubspot   1\n2      69321    adolph flores                                   project manager            aflo@satx.rr.com                 shw group   1\n3      83678   adrian borrows                          lighting project manager         aborrows@turtle.com  facility solutions group   1\n4      73532   alberto videla                senior engineering project manager  avidela@energia.eiffage.es               grupo cobra   1"
+        },
+        {
+            "role": "user",
+            "content": "with email id"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId      person_full_name                                       job_title                    person_email          organization_name\n0        401  Brenda Cleevely, PMP  IT Program & Project Manager for Manufacturing                  onyxmc@aol.com             General Motors\n1        726     alexandr zaznobin                    construction project manager              zaznobin@gmail.com  enwave energy corporation\n2        832        robert o'brien                                 project manager   robrien@sienaconstruction.com         the richmond group\n3       1762          todd hampton                                 project manager     todd.hampton@brockgroup.com           day & zimmermann\n4       1876      margret anderson                      enterprise project manager  margret.anderson@sportngin.com               sportsengine"
+        },
+        {
+            "role": "user",
+            "content": "with email id and twitter"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "i need 10 project manager who are working with software company"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name                                      job_title               person_email                            person_linkedin_url\n0      25844      steven nobis                  project manager at onvisource     steven.nobis@gmail.com  https://linkedin.com/in/steven-nobis-3617493b\n1      45221     carole herzog                                project manager          cherzog@sname.org           https://linkedin.com/in/caroleherzog\n2      61815  veronique nguyen                 implementation project manager      vnguyen@legumwilk.com             https://linkedin.com/in/veroniquen\n3      75800        patty nogg  senior project manager and financial services  patty_nogg@csgsystems.com     https://linkedin.com/in/patty-nogg-a326b76\n4      87513   john hornbuckle                         senior project manager  jhornbuckle18@outlook.com         https://linkedin.com/in/johnhornbuckle"
+        },
+        {
+            "role": "user",
+            "content": "i need 10 project manager who are working with software company with all social acount details"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        }
+    ],
+    "002": [
+        {
+            "role": "user",
+            "content": "i need 10 project manager who are working with software company with all social acount details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name               job_title                                 organization_name               person_email person_phone                                person_linkedin_url person_github_url person_twitter_url  rn\n0      90843        anil patel         project manager                               blue sage solutions             apatel@ibm.com         None         https://linkedin.com/in/anil-patel-77a8966              None               None   1\n1      45221     carole herzog         project manager  impexium: smarter, simpler membership management          cherzog@sname.org         None               https://linkedin.com/in/caroleherzog              None               None   1\n2     100349  carolyn galloway         project manager                             compugroup medical us   carolyn.galloway@cgm.com         None  https://linkedin.com/in/carolyn-galloway-b791a890              None               None   1\n3      93925     colin burkitt         project manager                                             yardi    colin.burkitt@gmail.com         None     https://linkedin.com/in/colin-burkitt-34292a14              None               None   1\n4      87513   john hornbuckle  senior project manager                                         blackbaud  jhornbuckle18@outlook.com         None             https://linkedin.com/in/johnhornbuckle              None               None   1"
+        },
+        {
+            "role": "user",
+            "content": "i need 100 project manager who are working with software company with all social acount details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId  person_full_name               job_title                                 organization_name               person_email person_phone                                person_linkedin_url person_github_url person_twitter_url  rn\n0      90843        anil patel         project manager                               blue sage solutions             apatel@ibm.com         None         https://linkedin.com/in/anil-patel-77a8966              None               None   1\n1      45221     carole herzog         project manager  impexium: smarter, simpler membership management          cherzog@sname.org         None               https://linkedin.com/in/caroleherzog              None               None   1\n2     100349  carolyn galloway         project manager                             compugroup medical us   carolyn.galloway@cgm.com         None  https://linkedin.com/in/carolyn-galloway-b791a890              None               None   1\n3      93925     colin burkitt         project manager                                             yardi    colin.burkitt@gmail.com         None     https://linkedin.com/in/colin-burkitt-34292a14              None               None   1\n4      87513   john hornbuckle  senior project manager                                         blackbaud  jhornbuckle18@outlook.com         None             https://linkedin.com/in/johnhornbuckle              None               None   1"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "who are you"
+        },
+        {
+            "role": "assistant",
+            "content": "I am an AI assistant here to help you with queries related to our database. If you have any questions or need assistance, feel free to ask!"
+        },
+        {
+            "role": "user",
+            "content": "Hi, I need some help today."
+        },
+        {
+            "role": "assistant",
+            "content": "Of course! I'm here to help. What do you need assistance with today?"
+        }
+    ],
+    "003": [
+        {
+            "role": "user",
+            "content": "i need 100 list of software developer who work with google"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title\n0       3840        jason lee           software engineer and engineering manager\n1       7637  nicolas lacasse                                   software engineer\n2      13466       kunal arya                                   software engineer\n3      25146     david eustis  senior staff software engineer and google cloud ma\n4      28684         jim king                                   software engineer"
+        },
+        {
+            "role": "user",
+            "content": "with all contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title               person_email person_phone                                 person_linkedin_url\n0       3840        jason lee           software engineer and engineering manager     jason.sj.lee@gmail.com         None  https://linkedin.com/in/jason-seungjin-lee-622b0a4\n1       7637  nicolas lacasse                                   software engineer  nicolas.lacasse@gmail.com         None                    https://linkedin.com/in/nlacasse\n2      13466       kunal arya                                   software engineer        kunalarya@gmail.com         None         https://linkedin.com/in/kunal-arya-8aaaa114\n3      25146     david eustis  senior staff software engineer and google cloud ma      davideustis@gmail.com         None       https://linkedin.com/in/david-eustis-aa05784b\n4      28684         jim king                                   software engineer         helltuna@gmail.com         None            https://linkedin.com/in/jim-king-a7381b9"
+        },
+        {
+            "role": "user",
+            "content": "with all contact details and organisation name"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 software engineer list who work with google and location usa"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 software engineer list who work with google and location usa"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "show me 10 engineer who work in google"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i am a bike shop owner in usa i want to improve my business give me some contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "       person_full_name                                           job_title                 person_email person_phone     organization_name           organization_industries\n0       dwight mcdowell                                               sales    mdmcdowells@sbcglobal.net         None              jcpenney                            retail\n1        debbie brandel  administrative assistant and marketing coordinator  dbrandel@greatrivertech.net         None  great river learning                        publishing\n2        jared schulman                     senior director, platform sales       jared.schulman@xad.com         None           groundtruth         marketing and advertising\n3  robin jones-williams          j r watkins products sales and information       rjones0730@comcast.net         None               watkins                    consumer goods\n4           adam shouse                     business development consultant              shousea@uni.edu         None      us cargo control  transportation/trucking/railroad"
+        },
+        {
+            "role": "user",
+            "content": "i am a cofee shop owner in usa i want to improve my business give me some contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i am a car shop owner in usa i want to improve my business give me some contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        }
+    ],
+    "hi": [
+        {
+            "role": "user",
+            "content": "001"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "001"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "001"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "001"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "001"
+        },
+        {
+            "role": "assistant",
+            "content": "I can help you with questions about our data. What information are you looking for?"
+        },
+        {
+            "role": "user",
+            "content": "001"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        }
+    ],
+    "008": [
+        {
+            "role": "user",
+            "content": "i am a car shop owner in usa i want to improve my business give me some contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                                           job_title              person_email person_phone             organization_name\n0    eric humeston                                               sales     ericartmoehn1@aol.com         None     art moehn chevrolet honda\n1     mike langley               internet sales department coordinator        mlocotillo@aol.com         None           clawson motorsports\n2      brad massey  regional sales manager, auto and mate dealership s     bmassey1967@gmail.com         None  auto/mate dealership systems\n3    taylor ramsey                                               sales        ramproline@aol.com         None     auto supply company, inc.\n4  robert barbieri                  regional sales and service manager  robert.barbieri@esph.com         None    hunter engineering company"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 software engineer list who work with google and location usa"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title person_location_city person_location_state person_location_country  rn\n0      49722      alex grosul                                   software engineer        mountain view            california           united states   1\n1      30105      andrew behn                            senior software engineer           kensington            california           united states   1\n2      28842   christopher lu                                   software engineer              chicago              illinois           united states   1\n3      25146     david eustis  senior staff software engineer and google cloud ma              seattle            washington           united states   1\n4      71251  david gilhooley                                   software engineer             new york              new york           united states   1"
+        },
+        {
+            "role": "user",
+            "content": "give me 10 software engineer list who work with google and location usa with organisation name"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title organization_name\n0       3840        jason lee           software engineer and engineering manager            google\n1       7637  nicolas lacasse                                   software engineer            google\n2      13466       kunal arya                                   software engineer            google\n3      25146     david eustis  senior staff software engineer and google cloud ma            google\n4      28684         jim king                                   software engineer            google"
+        },
+        {
+            "role": "user",
+            "content": "can you give me 10 software engineer list who work with google and location usa"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title organization_name\n0       3840        jason lee           software engineer and engineering manager            google\n1       7637  nicolas lacasse                                   software engineer            google\n2      13466       kunal arya                                   software engineer            google\n3      25146     david eustis  senior staff software engineer and google cloud ma            google\n4      28684         jim king                                   software engineer            google"
+        },
+        {
+            "role": "user",
+            "content": "with mobile number"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title organization_name person_mobile\n0       3840        jason lee           software engineer and engineering manager            google  +16263903973\n1       7637  nicolas lacasse                                   software engineer            google          None\n2      13466       kunal arya                                   software engineer            google          None\n3      25146     david eustis  senior staff software engineer and google cloud ma            google          None\n4      28684         jim king                                   software engineer            google  +14434499984"
+        }
+    ],
+    "009": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "can you give me 10 software engineer list who work with microsoft and location usa"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId       person_full_name                 job_title\n0        590            justin wong         software engineer\n1       7972        rajarshi sahani       software engineer 2\n2      16374          juri guljajev  senior software engineer\n3      40337  kungumaraj nachimuthu  senior software engineer\n4      63106                kon pik  senior software engineer"
+        },
+        {
+            "role": "user",
+            "content": "with organiation name and contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId      person_full_name                 job_title                      person_email person_phone organization_name  rn\n0      69875        amrita ahirrao         software engineer          ahirrao.amrita@gmail.com         None         microsoft   1\n1      94990  andrew schwartzmeyer      software engineer ii          andrew@schwartzmeyer.com         None         microsoft   1\n2      16374         juri guljajev  senior software engineer           juri.guljajev@gmail.com         None         microsoft   1\n3        590           justin wong         software engineer                jcwong87@gmail.com         None         microsoft   1\n4      71954            katie keim         software engineer  katharina.theresa.keim@gmail.com         None         microsoft   1"
+        },
+        {
+            "role": "user",
+            "content": "with organiation name and contact details having mobile number"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name          job_title          person_email person_mobile organization_name\n0      73668      sonal danak  software engineer  sonaldanak@gmail.com  +14047906846         microsoft"
+        },
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA with all contcat and social media details where facebook url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                                           job_title job_title_role job_title_sub_role job_title_levels organization_domain        organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date               organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address organization_industries organization_linkedin_id                                    organization_linkedin_url               organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size     organization_twitter_url person_birth_date person_birth_year          person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id                       person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username    person_industries person_inferred_salary person_inferred_years_experience            person_interest person_last_name person_linkedin_connections person_linkedin_id                               person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date  person_linkedin_username person_location_address_line_2 person_location_city     person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date  person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number        person_skills               person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0      16959      Admin       None    linkedIn                    None       2020-04-01           None                                                None                                             manager           None               None             None    hotelnikkosf.com  rharris@hotelnikkosf.com                UnVerified                              Dbounce                               None                                None                                 None                                    None                      1987                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                    222 mason street             hospitality                    42346       https://linkedin.com/company/hotel-nikko-san-francisco       hotel nikko san francisco       +15107150662                UnVerified                                 None                               None                                      None           201-500                         None              None              1957  regpiano72@gmail.com            Verified                        Dbounce                         None                          None                           None    100000689018384  https://facebook.com/reginald.harris.946                       None                                  None                                None      reginald.harris.946          reginald          male              None                   None          hospitality        100,000-150,000                             None                       None           harris                          18           84223704  https://linkedin.com/in/reginald-harris-6a025824                       None                                  None                                None                                       None  reginald-harris-6a025824                    apartment c          san leandro  san leandro, california, united states             north america           united states            37.72,-122.15                   2020-10-01     san francisco, california                       94577            california            341 williams street                  None               None  +15107150662           UnVerified                            None                          None                                 None   reginald harris         None          UnVerified                           None                         None                                None              None                 None                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1      46257      Admin       None    linkedIn                    None       2020-09-01        2020-04                                                None    technical leader | cisco dnac and sdn controller           None               None             None           cisco.com       bnagaraju@cisco.com                  Verified                              Dbounce                               None                                None                                 None              https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                           https://linkedin.com/company/cisco                           cisco       +14089311956                UnVerified                                 None                               None                                      None            10001+    https://twitter.com/cisco              None              None   bojesha.n@gmail.com            Verified                        Dbounce                         None                          None                           None    100001192831996     https://facebook.com/bojesha.nagaraju                       None                                  None                                None         bojesha.nagaraju           bojesha          None              None                   None   telecommunications        150,000-250,000                               16  research and developement         nagaraju                         302           13549276  https://linkedin.com/in/bojesha-nagaraju-0246554                       None                                  None                                None                                       None  bojesha-nagaraju-0246554                           None             san jose     san jose, california, united states             north america           united states            37.33,-121.89                   2020-09-01          san jose, california                        None            california                   600 epic way                  None               None          None           UnVerified                            None                          None                                 None  bojesha nagaraju         None          UnVerified                           None                         None                                None              None  wireless networking                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2      67278      Admin       None    linkedIn                    None       2020-11-01           2001                                                None  student resource center and mesa engineering progr    engineering               None             None            sfsu.edu           mnozer@sfsu.edu                UnVerified                              Dbounce                               None                                None                                 None  https://facebook.com/sanfranciscostate                      None                                 None                       None                             united states                   north america                 united states                           None                              None                         None                                None                                None        higher education                   165837  https://linkedin.com/company/san-francisco-state-university  san francisco state university       +15102356140                UnVerified                                 None                               None                                      None        5001-10000     https://twitter.com/sfsu              None              1953  nilgunozer@gmail.com            Verified                        Dbounce                         None                          None                           None    100000551805758            https://facebook.com/tezeyozer                       None                                  None                                None                tezeyozer            nilgun        female              None                   None     higher education        150,000-250,000                               42           renewable energy             ozer                         926           29715735       https://linkedin.com/in/nilgun-ozer-733b509                       None                                  None                                None                                       None       nilgun-ozer-733b509                           None             richmond     richmond, california, united states             north america           united states            37.93,-122.34                   2020-10-01     san francisco, california                       94804            california                 4906 plaza way                     m               None          None           UnVerified                            None                          None                                 None       nilgun ozer         None          UnVerified                           None                         None                                None              None             research                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3      79911      Admin       None    linkedIn                    None       2020-09-01        2018-08  Back to the basics! Trying to find solutions to cu                       systems engineer - commercial    engineering            systems             None           cisco.com         jgervia@cisco.com                  Verified                              Dbounce                               None                                None                                 None              https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                           https://linkedin.com/company/cisco                           cisco       +17708664692                UnVerified                                 None                               None                                      None            10001+    https://twitter.com/cisco              None              None     jgervia@gmail.com            Verified                        Dbounce                         None                          None                           None         1191814785              https://facebook.com/jgervia                       None                                  None                                None                  jgervia             jason          male              None                   None  computer networking        150,000-250,000                               30                       None           gervia                         639           12571609                   https://linkedin.com/in/jgervia                       None                                  None                                None                                       None                   jgervia                           None              atlanta         atlanta, georgia, united states             north america           united states             33.74,-84.38                   2020-09-01              atlanta, georgia                        None               georgia                           None                  None               None          None           UnVerified                            None                          None                                 None      jason gervia         None          UnVerified                           None                         None                                None              None                  vpn  https://twitter.com/jasongervia                      None                                 None                               None             jasongervia        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n4     102002      Admin       None    linkedIn                    None       2018-12-01     2014-03-01                                                None                                            baritone           None               None             None         sfopera.com       mrogers@sfopera.com                UnVerified                              Dbounce                               None                                None                                 None                                    None                      1923                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 301 van ness avenue         performing arts                    17508             https://linkedin.com/company/san-francisco-opera             san francisco opera       +17205610523                UnVerified                                 None                               None                                      None           201-500  https://twitter.com/sfopera              None              None   mrogers@sfopera.com          UnVerified                        Dbounce                         None                          None                           None         1464942427   https://facebook.com/mike.rogers.144734                       None                                  None                                None       mike.rogers.144734              mike          male              None                   None            insurance                   None                                8                       None           rogers                          14          177850895      https://linkedin.com/in/mike-rogers-b7b68a4b                       None                                  None                                None                                       None      mike-rogers-b7b68a4b                           None            littleton      littleton, colorado, united states             north america           united states            39.61,-105.01                   2018-12-01              denver, colorado                        None              colorado                           None                  None               None  +17205610523           UnVerified                            None                          None                                 None       mike rogers         None          UnVerified                           None                         None                                None              None                 None                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                0                 0                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        },
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA with all contcat and social media details where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                                     job_title job_title_role job_title_sub_role job_title_levels organization_domain           organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date       organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address    organization_industries organization_linkedin_id                                           organization_linkedin_url                      organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size             organization_twitter_url person_birth_date person_birth_year                person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username          person_industries person_inferred_salary person_inferred_years_experience      person_interest person_last_name person_linkedin_connections person_linkedin_id                                 person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date    person_linkedin_username person_location_address_line_2 person_location_city       person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date   person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number person_skills               person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0        684      Admin       None    linkedIn                    None       2020-10-01           2012            Software Engineer Cisco at Cisco Systems                       software engineer cisco    engineering           software             None           cisco.com           mstarkey@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None        computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+            https://twitter.com/cisco              None              None  matthew.starkey2@gmail.com            Verified                        Dbounce                         None                          None                           None               None                None                       None                                  None                                None                     None           matthew          male              None                   None        computer networking          70,000-85,000                               15                 None          starkey                          82          134840327    https://linkedin.com/in/matthew-starkey-71b1a839                       None                                  None                                None                                       None    matthew-starkey-71b1a839                           None        san francisco  san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None    matthew starkey         None          UnVerified                           None                         None                                None              None          ccna                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1       2250      Admin       None    linkedIn                    None       2019-12-01        1999-09                                                None  consulting systems engineer - us data center    engineering            systems             None           cisco.com           dnentarz@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None        computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+            https://twitter.com/cisco              None              None      dave.nentarz@gmail.com            Verified                        Dbounce                         None                          None                           None               None                None                       None                                  None                                None                     None              dave          male              None                   None        computer networking          45,000-55,000                               30                 None          nentarz                         956            2366312                    https://linkedin.com/in/dnentarz                       None                                  None                                None                                       None                    dnentarz                           None            rochester        rochester, new york, united states             north america           united states             43.15,-77.61                   2020-12-01           rochester, new york                        None              new york                           None                  None               None          None           UnVerified                            None                          None                                 None       dave nentarz         None          UnVerified                           None                         None                                None              None     cisco ucs                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2       2323      Admin       None    linkedIn                    None       2020-10-01        2015-08                                                None                                  library page           None               None             None            sfpl.org           erving.tu@sfpl.org                  Verified                              Dbounce                               None                                None                                 None                            None                      1878                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                   100 larkin street                  libraries                   165836           https://linkedin.com/company/san-francisco-public-library           san francisco public library               None                UnVerified                                 None                               None                                      None          501-1000  https://twitter.com/sfpubliclibrary              None              None              etu001@ucr.edu            Verified                        Dbounce                         None                          None                           None               None                None                       None                                  None                                None                     None            erving          male              None                   None            food production                   None                                9                 None               tu                          30          126793910          https://linkedin.com/in/erving-tu-13256836                       None                                  None                                None                                       None          erving-tu-13256836                           None        san francisco  san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None          erving tu         None          UnVerified                           None                         None                                None              None     photoshop                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3       4119      Admin       None    linkedIn                    None       2020-11-01        1996-01  San Francisco is a vibrant and dynamic city, on th                              systems engineer    engineering            systems             None           sfgov.org     steve.senatori@sfgov.org                UnVerified                              Dbounce                               None                                None                                 None         https://facebook.com/sf                      1976                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california       1 dr carlton b goodlett place  government administration                   163066       https://linkedin.com/company/city-and-county-of-san-francisco       city and county of san francisco       +19254649440                UnVerified                                 None                               None                                      None            10001+            https://twitter.com/sfgov        1959-07-14              1959    steve.senatori@gmail.com            Verified                        Dbounce                         None                          None                           None               None                None                       None                                  None                                None                     None             steve          male              None                   None  government administration         85,000-100,000                               24  collecting antiques         senatori                         174           77246927     https://linkedin.com/in/steve-senatori-0bba5321                       None                                  None                                None                                       None     steve-senatori-0bba5321                           None              concord        concord, california, united states             north america           united states            37.97,-122.03                   2020-10-01     san francisco, california                       94521            california              1509 ballad court                  None               None          None           UnVerified                            None                          None                                 None     steve senatori         None          UnVerified                           None                         None                                None              None       storage                             None                      None                                 None                               None                    None        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n4       6414      Admin       None    linkedIn                    None       2020-09-01        2019-10                                                None                 first grade bilingual teacher      education            teacher             None                None  christiane.brossi@sfusd.edu                  Verified                              Dbounce                               None                                None                                 None  https://facebook.com/sfunified                      1851                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 555 franklin street       education management                    10576  https://linkedin.com/company/san-francisco-unified-school-district  san francisco unified school district       +14155864239                UnVerified                                 None                               None                                      None         1001-5000        https://twitter.com/sfunified              None              1968           cbrossi@gmail.com            Verified                        Dbounce                         None                          None                           None               None                None                       None                                  None                                None                     None        christiane        female              None                   None       education management          70,000-85,000                               14             teaching           brossi                         371           41631572  https://linkedin.com/in/christiane-brossi-418b3811                       None                                  None                                None                                       None  christiane-brossi-418b3811                           None        san francisco  san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                       94132            california             510 gonzalez drive                  None               None          None           UnVerified                            None                          None                                 None  christiane brossi         None          UnVerified                           None                         None                                None              None     classroom  https://twitter.com/cbrossi2009                      None                                 None                               None             cbrossi2009        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        },
+        {
+            "role": "user",
+            "content": "i need empolyee details who work with cisco in USA where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                               job_title job_title_role job_title_sub_role job_title_levels organization_domain           organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date       organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address organization_industries organization_linkedin_id                                           organization_linkedin_url                      organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size       organization_twitter_url person_birth_date person_birth_year          person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id           person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username                    person_industries person_inferred_salary person_inferred_years_experience person_interest person_last_name person_linkedin_connections person_linkedin_id                                 person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date    person_linkedin_username person_location_address_line_2 person_location_city          person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date   person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number      person_skills                person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0       6414      Admin       None    linkedIn                    None       2020-09-01        2019-10                                                None           first grade bilingual teacher      education            teacher             None                None  christiane.brossi@sfusd.edu                  Verified                              Dbounce                               None                                None                                 None  https://facebook.com/sfunified                      1851                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 555 franklin street    education management                    10576  https://linkedin.com/company/san-francisco-unified-school-district  san francisco unified school district       +14155864239                UnVerified                                 None                               None                                      None         1001-5000  https://twitter.com/sfunified              None              1968     cbrossi@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None        christiane        female              None                   None                 education management          70,000-85,000                               14        teaching           brossi                         371           41631572  https://linkedin.com/in/christiane-brossi-418b3811                       None                                  None                                None                                       None  christiane-brossi-418b3811                           None        san francisco     san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                       94132            california             510 gonzalez drive                  None               None          None           UnVerified                            None                          None                                 None  christiane brossi         None          UnVerified                           None                         None                                None              None          classroom   https://twitter.com/cbrossi2009                      None                                 None                               None             cbrossi2009        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1      45246      Admin       None    linkedIn                    None       2019-12-01        2012-04                                                None  product manager, enterprise networking     operations            product             None           cisco.com           marnagao@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None  marccnagao@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              marc          male              None                   None  information technology and services         85,000-100,000                               23            None            nagao                        1273            6591533                   https://linkedin.com/in/marcnagao                       None                                  None                                None                                       None                   marcnagao                           None     huntington beach  huntington beach, california, united states             north america           united states            33.66,-117.99                   2020-11-01       los angeles, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None         marc nagao         None          UnVerified                           None                         None                                None              None  product marketing       https://twitter.com/rjpeaks                      None                                 None                               None                 rjpeaks        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2      67244      Admin       None    linkedIn                    None       2020-12-01     2014-08-01  * Deliver agile, automated, and open network archi              enterprise account manager          sales           accounts             None           cisco.com              grose@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     gary.rose@att.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              gary          male              None                   None  information technology and services         85,000-100,000                               30            None             rose                        1015           33702273           https://linkedin.com/in/gary-rose-769353b                       None                                  None                                None                                       None           gary-rose-769353b                           None             hartford         hartford, connecticut, united states             north america           united states             41.76,-72.68                   2020-10-01         hartford, connecticut                        None           connecticut                           None                  None               None          None           UnVerified                            None                          None                                 None          gary rose         None          UnVerified                           None                         None                                None              None   managed services  https://twitter.com/garyrose2427                      None                                 None                               None            garyrose2427        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3      79911      Admin       None    linkedIn                    None       2020-09-01        2018-08  Back to the basics! Trying to find solutions to cu           systems engineer - commercial    engineering            systems             None           cisco.com            jgervia@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco       +17708664692                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     jgervia@gmail.com            Verified                        Dbounce                         None                          None                           None         1191814785  https://facebook.com/jgervia                       None                                  None                                None                  jgervia             jason          male              None                   None                  computer networking        150,000-250,000                               30            None           gervia                         639           12571609                     https://linkedin.com/in/jgervia                       None                                  None                                None                                       None                     jgervia                           None              atlanta              atlanta, georgia, united states             north america           united states             33.74,-84.38                   2020-09-01              atlanta, georgia                        None               georgia                           None                  None               None          None           UnVerified                            None                          None                                 None       jason gervia         None          UnVerified                           None                         None                                None              None                vpn   https://twitter.com/jasongervia                      None                                 None                               None             jasongervia        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        }
+    ],
+    "cd9f2f9b-9a1d-4df8-b0d5-f7a8a74dafdb": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "what is your name"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "yes"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        }
+    ],
+    "a57aa95e-0de1-499c-9e34-eb8b52144912": [
+        {
+            "role": "user",
+            "content": "Export contact data for businesses in the \"Health & Wellness\" industry"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        },
+        {
+            "role": "user",
+            "content": "Export contact data for businesses in the \"Health & Wellness\" industry in usa"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        },
+        {
+            "role": "user",
+            "content": "Export contact data for businesses in the \"Health & Wellness\" industry in usa"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        },
+        {
+            "role": "user",
+            "content": "give me some data for businesses in the \"Health & Wellness\" industry located in ussa"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "af07e3bb-bc09-4761-a368-5e752cf97215": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "i need helth and wellness data"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        },
+        {
+            "role": "user",
+            "content": "i need 10 softwarre developer who work in google"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title\n0       3840        jason lee           software engineer and engineering manager\n1       7637  nicolas lacasse                                   software engineer\n2      13466       kunal arya                                   software engineer\n3      25146     david eustis  senior staff software engineer and google cloud ma\n4      28684         jim king                                   software engineer"
+        },
+        {
+            "role": "user",
+            "content": "with all contact details"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title               person_email person_phone person_mobile                                 person_linkedin_url\n0       3840        jason lee           software engineer and engineering manager     jason.sj.lee@gmail.com         None  +16263903973  https://linkedin.com/in/jason-seungjin-lee-622b0a4\n1       7637  nicolas lacasse                                   software engineer  nicolas.lacasse@gmail.com         None          None                    https://linkedin.com/in/nlacasse\n2      13466       kunal arya                                   software engineer        kunalarya@gmail.com         None          None         https://linkedin.com/in/kunal-arya-8aaaa114\n3      25146     david eustis  senior staff software engineer and google cloud ma      davideustis@gmail.com         None          None       https://linkedin.com/in/david-eustis-aa05784b\n4      28684         jim king                                   software engineer         helltuna@gmail.com         None  +14434499984            https://linkedin.com/in/jim-king-a7381b9"
+        },
+        {
+            "role": "user",
+            "content": "where valid mobile number"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId     person_full_name                                           job_title               person_email person_phone person_mobile                                  person_linkedin_url\n0       3840            jason lee           software engineer and engineering manager     jason.sj.lee@gmail.com         None  +16263903973   https://linkedin.com/in/jason-seungjin-lee-622b0a4\n1       6631           aster peng                              environmental champion        asterpeng@gmail.com         None  +16507045398           https://linkedin.com/in/aster-peng-824a496\n2      11217      christine brown              programmatic account manager at google  christinecbrown@gmail.com         None  +13013354602              https://linkedin.com/in/christinecbrown\n3      17498       indrajit khare  engineering manager for google photos client: ios,           ikhare@gmail.com         None  +14087716483                https://linkedin.com/in/indrajitkhare\n4      23752  gautham thambidorai                              distinguished engineer    gautham.dorai@gmail.com         None  +16507933083  https://linkedin.com/in/gautham-thambidorai-6440b95"
+        },
+        {
+            "role": "user",
+            "content": "ok thanks"
+        },
+        {
+            "role": "assistant",
+            "content": "You're welcome! If you have any more questions or need further assistance, feel free to ask."
+        },
+        {
+            "role": "user",
+            "content": "yes give me with twitter also"
+        },
+        {
+            "role": "assistant",
+            "content": "Sorry, I'm having trouble generating a database query right now. Please try again later."
+        },
+        {
+            "role": "user",
+            "content": "i need 10 softwarre developer who work in google"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId person_full_name                                           job_title               person_email person_phone person_mobile                                 person_linkedin_url               person_twitter_url\n0       3840        jason lee           software engineer and engineering manager     jason.sj.lee@gmail.com         None  +16263903973  https://linkedin.com/in/jason-seungjin-lee-622b0a4                             None\n1       7637  nicolas lacasse                                   software engineer  nicolas.lacasse@gmail.com         None          None                    https://linkedin.com/in/nlacasse                             None\n2      13466       kunal arya                                   software engineer        kunalarya@gmail.com         None          None         https://linkedin.com/in/kunal-arya-8aaaa114                             None\n3      25146     david eustis  senior staff software engineer and google cloud ma      davideustis@gmail.com         None          None       https://linkedin.com/in/david-eustis-aa05784b  https://twitter.com/davideustis\n4      28684         jim king                                   software engineer         helltuna@gmail.com         None  +14434499984            https://linkedin.com/in/jim-king-a7381b9                             None"
+        },
+        {
+            "role": "user",
+            "content": "with facebook "
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        }
+    ],
+    "ce590c1c-080c-419e-bca9-26fdc401d8ef": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "i need person from mental health"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i need business contacts of 10  person from mental health"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                 job_title             person_email person_phone                                  organization_name\n0       amy bailey  clinical psychotherapist         gryan@seimac.com         None                                      urban balance\n1      julie kungl         adoption assessor          jtkungl@cox.net         None                                     bellefaire jcb\n2    brooke blythe         primary therapist      bblythe10@gmail.com         None                           rogers memorial hospital\n3    levi starbird    director of operations  salmonspartan@gmail.com         None                                    sunspire health\n4   michelle shook   human resources manager        mshook@actsaz.com         None  arizona counseling and treatment services, l.l.c."
+        },
+        {
+            "role": "user",
+            "content": "What is the capital of France?"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "hello"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello again! How can I help you today?"
+        }
+    ],
+    "ef4605aa-d8d5-4703-9bb6-7bc1e3b9497f": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "i nedd some mediacl and hospital industry people to make camping in usa"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                                           job_title                              organization_name                    person_email person_phone\n0     peggy wilson  corporate director of human resources at pch hotel                           pch hotels & resorts  peggy.wilson@marriottgrand.com         None\n1    megan carlson                                   account executive                        bardy diagnostics, inc.      meganlynncarlson@gmail.com         None\n2     joseph makem                                    registered nurse                                    aria health                makem321@aol.com         None\n3     gail buckley                                                 cna                           advocate health care      gailthequeen@sbcglobal.net         None\n4     adam furnier               senior quality improvement specialist  cincinnati children's hospital medical center            adam.furnier@fmr.com         None"
+        },
+        {
+            "role": "user",
+            "content": "okay give me with all social media and contacts"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                                           job_title                              organization_name                    person_email person_phone                             person_linkedin_url                    person_facebook_url person_twitter_url person_github_url\n0     peggy wilson  corporate director of human resources at pch hotel                           pch hotels & resorts  peggy.wilson@marriottgrand.com         None   https://linkedin.com/in/peggy-wilson-a44b9119                                   None               None              None\n1    megan carlson                                   account executive                        bardy diagnostics, inc.      meganlynncarlson@gmail.com         None  https://linkedin.com/in/megan-carlson-8796b228  https://facebook.com/meganlynncarlson               None              None\n2     joseph makem                                    registered nurse                                    aria health                makem321@aol.com         None   https://linkedin.com/in/joseph-makem-2a92451b                                   None               None              None\n3     gail buckley                                                 cna                           advocate health care      gailthequeen@sbcglobal.net         None   https://linkedin.com/in/gail-buckley-43a6ab47                                   None               None              None\n4     adam furnier               senior quality improvement specialist  cincinnati children's hospital medical center            adam.furnier@fmr.com         None   https://linkedin.com/in/adam-furnier-5b4554a7                                   None               None              None"
+        }
+    ],
+    "1c5cd3ed-ba3c-48e3-bde1-800db067aa48": [
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA with all contcat and social media details where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA with all contcat and social media details where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                               job_title job_title_role job_title_sub_role job_title_levels organization_domain           organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date       organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address organization_industries organization_linkedin_id                                           organization_linkedin_url                      organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size       organization_twitter_url person_birth_date person_birth_year          person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id           person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username                    person_industries person_inferred_salary person_inferred_years_experience person_interest person_last_name person_linkedin_connections person_linkedin_id                                 person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date    person_linkedin_username person_location_address_line_2 person_location_city          person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date   person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number      person_skills                person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0       6414      Admin       None    linkedIn                    None       2020-09-01        2019-10                                                None           first grade bilingual teacher      education            teacher             None                None  christiane.brossi@sfusd.edu                  Verified                              Dbounce                               None                                None                                 None  https://facebook.com/sfunified                      1851                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 555 franklin street    education management                    10576  https://linkedin.com/company/san-francisco-unified-school-district  san francisco unified school district       +14155864239                UnVerified                                 None                               None                                      None         1001-5000  https://twitter.com/sfunified              None              1968     cbrossi@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None        christiane        female              None                   None                 education management          70,000-85,000                               14        teaching           brossi                         371           41631572  https://linkedin.com/in/christiane-brossi-418b3811                       None                                  None                                None                                       None  christiane-brossi-418b3811                           None        san francisco     san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                       94132            california             510 gonzalez drive                  None               None          None           UnVerified                            None                          None                                 None  christiane brossi         None          UnVerified                           None                         None                                None              None          classroom   https://twitter.com/cbrossi2009                      None                                 None                               None             cbrossi2009        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1      45246      Admin       None    linkedIn                    None       2019-12-01        2012-04                                                None  product manager, enterprise networking     operations            product             None           cisco.com           marnagao@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None  marccnagao@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              marc          male              None                   None  information technology and services         85,000-100,000                               23            None            nagao                        1273            6591533                   https://linkedin.com/in/marcnagao                       None                                  None                                None                                       None                   marcnagao                           None     huntington beach  huntington beach, california, united states             north america           united states            33.66,-117.99                   2020-11-01       los angeles, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None         marc nagao         None          UnVerified                           None                         None                                None              None  product marketing       https://twitter.com/rjpeaks                      None                                 None                               None                 rjpeaks        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2      67244      Admin       None    linkedIn                    None       2020-12-01     2014-08-01  * Deliver agile, automated, and open network archi              enterprise account manager          sales           accounts             None           cisco.com              grose@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     gary.rose@att.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              gary          male              None                   None  information technology and services         85,000-100,000                               30            None             rose                        1015           33702273           https://linkedin.com/in/gary-rose-769353b                       None                                  None                                None                                       None           gary-rose-769353b                           None             hartford         hartford, connecticut, united states             north america           united states             41.76,-72.68                   2020-10-01         hartford, connecticut                        None           connecticut                           None                  None               None          None           UnVerified                            None                          None                                 None          gary rose         None          UnVerified                           None                         None                                None              None   managed services  https://twitter.com/garyrose2427                      None                                 None                               None            garyrose2427        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3      79911      Admin       None    linkedIn                    None       2020-09-01        2018-08  Back to the basics! Trying to find solutions to cu           systems engineer - commercial    engineering            systems             None           cisco.com            jgervia@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco       +17708664692                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     jgervia@gmail.com            Verified                        Dbounce                         None                          None                           None         1191814785  https://facebook.com/jgervia                       None                                  None                                None                  jgervia             jason          male              None                   None                  computer networking        150,000-250,000                               30            None           gervia                         639           12571609                     https://linkedin.com/in/jgervia                       None                                  None                                None                                       None                     jgervia                           None              atlanta              atlanta, georgia, united states             north america           united states             33.74,-84.38                   2020-09-01              atlanta, georgia                        None               georgia                           None                  None               None          None           UnVerified                            None                          None                                 None       jason gervia         None          UnVerified                           None                         None                                None              None                vpn   https://twitter.com/jasongervia                      None                                 None                               None             jasongervia        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        },
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA with all contcat and social media details where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                               job_title job_title_role job_title_sub_role job_title_levels organization_domain           organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date       organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address organization_industries organization_linkedin_id                                           organization_linkedin_url                      organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size       organization_twitter_url person_birth_date person_birth_year          person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id           person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username                    person_industries person_inferred_salary person_inferred_years_experience person_interest person_last_name person_linkedin_connections person_linkedin_id                                 person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date    person_linkedin_username person_location_address_line_2 person_location_city          person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date   person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number      person_skills                person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0       6414      Admin       None    linkedIn                    None       2020-09-01        2019-10                                                None           first grade bilingual teacher      education            teacher             None                None  christiane.brossi@sfusd.edu                  Verified                              Dbounce                               None                                None                                 None  https://facebook.com/sfunified                      1851                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 555 franklin street    education management                    10576  https://linkedin.com/company/san-francisco-unified-school-district  san francisco unified school district       +14155864239                UnVerified                                 None                               None                                      None         1001-5000  https://twitter.com/sfunified              None              1968     cbrossi@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None        christiane        female              None                   None                 education management          70,000-85,000                               14        teaching           brossi                         371           41631572  https://linkedin.com/in/christiane-brossi-418b3811                       None                                  None                                None                                       None  christiane-brossi-418b3811                           None        san francisco     san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                       94132            california             510 gonzalez drive                  None               None          None           UnVerified                            None                          None                                 None  christiane brossi         None          UnVerified                           None                         None                                None              None          classroom   https://twitter.com/cbrossi2009                      None                                 None                               None             cbrossi2009        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1      45246      Admin       None    linkedIn                    None       2019-12-01        2012-04                                                None  product manager, enterprise networking     operations            product             None           cisco.com           marnagao@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None  marccnagao@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              marc          male              None                   None  information technology and services         85,000-100,000                               23            None            nagao                        1273            6591533                   https://linkedin.com/in/marcnagao                       None                                  None                                None                                       None                   marcnagao                           None     huntington beach  huntington beach, california, united states             north america           united states            33.66,-117.99                   2020-11-01       los angeles, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None         marc nagao         None          UnVerified                           None                         None                                None              None  product marketing       https://twitter.com/rjpeaks                      None                                 None                               None                 rjpeaks        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2      67244      Admin       None    linkedIn                    None       2020-12-01     2014-08-01  * Deliver agile, automated, and open network archi              enterprise account manager          sales           accounts             None           cisco.com              grose@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     gary.rose@att.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              gary          male              None                   None  information technology and services         85,000-100,000                               30            None             rose                        1015           33702273           https://linkedin.com/in/gary-rose-769353b                       None                                  None                                None                                       None           gary-rose-769353b                           None             hartford         hartford, connecticut, united states             north america           united states             41.76,-72.68                   2020-10-01         hartford, connecticut                        None           connecticut                           None                  None               None          None           UnVerified                            None                          None                                 None          gary rose         None          UnVerified                           None                         None                                None              None   managed services  https://twitter.com/garyrose2427                      None                                 None                               None            garyrose2427        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3      79911      Admin       None    linkedIn                    None       2020-09-01        2018-08  Back to the basics! Trying to find solutions to cu           systems engineer - commercial    engineering            systems             None           cisco.com            jgervia@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco       +17708664692                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     jgervia@gmail.com            Verified                        Dbounce                         None                          None                           None         1191814785  https://facebook.com/jgervia                       None                                  None                                None                  jgervia             jason          male              None                   None                  computer networking        150,000-250,000                               30            None           gervia                         639           12571609                     https://linkedin.com/in/jgervia                       None                                  None                                None                                       None                     jgervia                           None              atlanta              atlanta, georgia, united states             north america           united states             33.74,-84.38                   2020-09-01              atlanta, georgia                        None               georgia                           None                  None               None          None           UnVerified                            None                          None                                 None       jason gervia         None          UnVerified                           None                         None                                None              None                vpn   https://twitter.com/jasongervia                      None                                 None                               None             jasongervia        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        },
+        {
+            "role": "user",
+            "content": "i need all empolyee details who work with cisco in USA where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                               job_title job_title_role job_title_sub_role job_title_levels organization_domain           organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date       organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address organization_industries organization_linkedin_id                                           organization_linkedin_url                      organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size       organization_twitter_url person_birth_date person_birth_year          person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id           person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username                    person_industries person_inferred_salary person_inferred_years_experience person_interest person_last_name person_linkedin_connections person_linkedin_id                                 person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date    person_linkedin_username person_location_address_line_2 person_location_city          person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date   person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number      person_skills                person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0       6414      Admin       None    linkedIn                    None       2020-09-01        2019-10                                                None           first grade bilingual teacher      education            teacher             None                None  christiane.brossi@sfusd.edu                  Verified                              Dbounce                               None                                None                                 None  https://facebook.com/sfunified                      1851                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 555 franklin street    education management                    10576  https://linkedin.com/company/san-francisco-unified-school-district  san francisco unified school district       +14155864239                UnVerified                                 None                               None                                      None         1001-5000  https://twitter.com/sfunified              None              1968     cbrossi@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None        christiane        female              None                   None                 education management          70,000-85,000                               14        teaching           brossi                         371           41631572  https://linkedin.com/in/christiane-brossi-418b3811                       None                                  None                                None                                       None  christiane-brossi-418b3811                           None        san francisco     san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                       94132            california             510 gonzalez drive                  None               None          None           UnVerified                            None                          None                                 None  christiane brossi         None          UnVerified                           None                         None                                None              None          classroom   https://twitter.com/cbrossi2009                      None                                 None                               None             cbrossi2009        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1      45246      Admin       None    linkedIn                    None       2019-12-01        2012-04                                                None  product manager, enterprise networking     operations            product             None           cisco.com           marnagao@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None  marccnagao@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              marc          male              None                   None  information technology and services         85,000-100,000                               23            None            nagao                        1273            6591533                   https://linkedin.com/in/marcnagao                       None                                  None                                None                                       None                   marcnagao                           None     huntington beach  huntington beach, california, united states             north america           united states            33.66,-117.99                   2020-11-01       los angeles, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None         marc nagao         None          UnVerified                           None                         None                                None              None  product marketing       https://twitter.com/rjpeaks                      None                                 None                               None                 rjpeaks        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2      67244      Admin       None    linkedIn                    None       2020-12-01     2014-08-01  * Deliver agile, automated, and open network archi              enterprise account manager          sales           accounts             None           cisco.com              grose@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     gary.rose@att.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              gary          male              None                   None  information technology and services         85,000-100,000                               30            None             rose                        1015           33702273           https://linkedin.com/in/gary-rose-769353b                       None                                  None                                None                                       None           gary-rose-769353b                           None             hartford         hartford, connecticut, united states             north america           united states             41.76,-72.68                   2020-10-01         hartford, connecticut                        None           connecticut                           None                  None               None          None           UnVerified                            None                          None                                 None          gary rose         None          UnVerified                           None                         None                                None              None   managed services  https://twitter.com/garyrose2427                      None                                 None                               None            garyrose2427        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3      79911      Admin       None    linkedIn                    None       2020-09-01        2018-08  Back to the basics! Trying to find solutions to cu           systems engineer - commercial    engineering            systems             None           cisco.com            jgervia@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco       +17708664692                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     jgervia@gmail.com            Verified                        Dbounce                         None                          None                           None         1191814785  https://facebook.com/jgervia                       None                                  None                                None                  jgervia             jason          male              None                   None                  computer networking        150,000-250,000                               30            None           gervia                         639           12571609                     https://linkedin.com/in/jgervia                       None                                  None                                None                                       None                     jgervia                           None              atlanta              atlanta, georgia, united states             north america           united states             33.74,-84.38                   2020-09-01              atlanta, georgia                        None               georgia                           None                  None               None          None           UnVerified                            None                          None                                 None       jason gervia         None          UnVerified                           None                         None                                None              None                vpn   https://twitter.com/jasongervia                      None                                 None                               None             jasongervia        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        },
+        {
+            "role": "user",
+            "content": "i need empolyee details who work with cisco in USA where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i need empolyee details who work with cisco in USA where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        },
+        {
+            "role": "user",
+            "content": "i need empolyee details who work with cisco in USA where twitter url is not null"
+        },
+        {
+            "role": "assistant",
+            "content": "   ProfileId created_by created_on data_source person_profile_headline job_last_updated job_start_date                                         job_summary                               job_title job_title_role job_title_sub_role job_title_levels organization_domain           organization_email organization_email_status organization_email_validation_source organization_email_validation_date organization_email_last_opened_date organization_email_last_clicked_date       organization_facebook_url organization_founded_year organization_location_address_line_2 organization_location_city  organization_location_city_state_country organization_location_continent organization_location_country organization_location_geo_code organization_location_postal_code organization_location_region organization_location_state_country organization_location_state_address organization_industries organization_linkedin_id                                           organization_linkedin_url                      organization_name organization_phone organization_phone_status organization_phone_validation_source organization_phone_validation_date organization_phone_last_communicated_date organization_size       organization_twitter_url person_birth_date person_birth_year          person_email person_email_status person_email_validation_source person_email_validation_date person_email_last_opened_date person_email_last_clicked_date person_facebook_id           person_facebook_url person_facebook_url_status person_facebook_url_validation_source person_facebook_url_validation_date person_facebook_username person_first_name person_gender person_github_url person_github_username                    person_industries person_inferred_salary person_inferred_years_experience person_interest person_last_name person_linkedin_connections person_linkedin_id                                 person_linkedin_url person_linkedin_url_status person_linkedin_url_validation_source person_linkedin_url_validation_date person_linkedin_url_last_communicated_date    person_linkedin_username person_location_address_line_2 person_location_city          person_location_city_status_country person_location_continent person_location_country person_location_geo_code person_location_last_updated person_location_state_country person_location_postal_code person_location_state person_location_street_address person_middle_initial person_middle_name person_mobile person_mobile_status person_mobile_validation_source person_mobile_validation_date person_mobile_last_communicated_date   person_full_name person_phone person_phone_status person_phone_validation_source person_phone_validation_date person_phone_last_communicated_date person_raw_number      person_skills                person_twitter_url person_twitter_url_status person_twitter_url_validation_source person_twitter_url_validation_date person_twitter_username search_tags updated_by updated_on person_photo_url organization_phone_sanitized  ConfidenceScore  PersonEmailScore OrganisationEmailScore  PersonPhoneScore  PersonMobileScore OrganisationPhoneScore  PersonLinkedInScore DataBatch person_email_opened person_email_clicked IsUnsubscribed Unsubscribed_on person_twitter_followers person_twitter_createdon  organization_email_clicked  organization_email_opened\n0       6414      Admin       None    linkedIn                    None       2020-09-01        2019-10                                                None           first grade bilingual teacher      education            teacher             None                None  christiane.brossi@sfusd.edu                  Verified                              Dbounce                               None                                None                                 None  https://facebook.com/sfunified                      1851                                 None              san francisco  san francisco, california, united states                   north america                 united states                  37.77,-122.41                             94102                   california           san francisco, california                 555 franklin street    education management                    10576  https://linkedin.com/company/san-francisco-unified-school-district  san francisco unified school district       +14155864239                UnVerified                                 None                               None                                      None         1001-5000  https://twitter.com/sfunified              None              1968     cbrossi@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None        christiane        female              None                   None                 education management          70,000-85,000                               14        teaching           brossi                         371           41631572  https://linkedin.com/in/christiane-brossi-418b3811                       None                                  None                                None                                       None  christiane-brossi-418b3811                           None        san francisco     san francisco, california, united states             north america           united states            37.77,-122.41                   2020-10-01     san francisco, california                       94132            california             510 gonzalez drive                  None               None          None           UnVerified                            None                          None                                 None  christiane brossi         None          UnVerified                           None                         None                                None              None          classroom   https://twitter.com/cbrossi2009                      None                                 None                               None             cbrossi2009        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n1      45246      Admin       None    linkedIn                    None       2019-12-01        2012-04                                                None  product manager, enterprise networking     operations            product             None           cisco.com           marnagao@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None  marccnagao@gmail.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              marc          male              None                   None  information technology and services         85,000-100,000                               23            None            nagao                        1273            6591533                   https://linkedin.com/in/marcnagao                       None                                  None                                None                                       None                   marcnagao                           None     huntington beach  huntington beach, california, united states             north america           united states            33.66,-117.99                   2020-11-01       los angeles, california                        None            california                           None                  None               None          None           UnVerified                            None                          None                                 None         marc nagao         None          UnVerified                           None                         None                                None              None  product marketing       https://twitter.com/rjpeaks                      None                                 None                               None                 rjpeaks        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n2      67244      Admin       None    linkedIn                    None       2020-12-01     2014-08-01  * Deliver agile, automated, and open network archi              enterprise account manager          sales           accounts             None           cisco.com              grose@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco               None                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     gary.rose@att.com            Verified                        Dbounce                         None                          None                           None               None                          None                       None                                  None                                None                     None              gary          male              None                   None  information technology and services         85,000-100,000                               30            None             rose                        1015           33702273           https://linkedin.com/in/gary-rose-769353b                       None                                  None                                None                                       None           gary-rose-769353b                           None             hartford         hartford, connecticut, united states             north america           united states             41.76,-72.68                   2020-10-01         hartford, connecticut                        None           connecticut                           None                  None               None          None           UnVerified                            None                          None                                 None          gary rose         None          UnVerified                           None                         None                                None              None   managed services  https://twitter.com/garyrose2427                      None                                 None                               None            garyrose2427        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False\n3      79911      Admin       None    linkedIn                    None       2020-09-01        2018-08  Back to the basics! Trying to find solutions to cu           systems engineer - commercial    engineering            systems             None           cisco.com            jgervia@cisco.com                  Verified                              Dbounce                               None                                None                                 None      https://facebook.com/cisco                      1984                                 None                   san jose       san jose, california, united states                   north america                 united states                  37.33,-121.89                             95134                   california                san jose, california                                None     computer networking                     1063                                  https://linkedin.com/company/cisco                                  cisco       +17708664692                UnVerified                                 None                               None                                      None            10001+      https://twitter.com/cisco              None              None     jgervia@gmail.com            Verified                        Dbounce                         None                          None                           None         1191814785  https://facebook.com/jgervia                       None                                  None                                None                  jgervia             jason          male              None                   None                  computer networking        150,000-250,000                               30            None           gervia                         639           12571609                     https://linkedin.com/in/jgervia                       None                                  None                                None                                       None                     jgervia                           None              atlanta              atlanta, georgia, united states             north america           united states             33.74,-84.38                   2020-09-01              atlanta, georgia                        None               georgia                           None                  None               None          None           UnVerified                            None                          None                                 None       jason gervia         None          UnVerified                           None                         None                                None              None                vpn   https://twitter.com/jasongervia                      None                                 None                               None             jasongervia        None      Admin       None             None                         None                1                 1                   None                 0                  0                   None                    0      None                None                 None           None            None                     None                     None                       False                      False"
+        },
+        {
+            "role": "user",
+            "content": "give me data for businesses in the 'Health & Wellness' industry in the usa"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        },
+        {
+            "role": "user",
+            "content": "give me data for businesses in the 'Health & Wellness' industry in the usa"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        },
+        {
+            "role": "user",
+            "content": "i need some data for my business in the health, wellness and fitness industry in the usa"
+        },
+        {
+            "role": "assistant",
+            "content": "The query returned no data."
+        }
+    ],
+    "568bff6e-e277-40e2-afda-b1259d5a3ad8": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        }
+    ],
+    "f77cbcda-eddc-4063-9fc6-a560f3eecbee": [
+        {
+            "role": "user",
+            "content": "hi"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today?"
+        },
+        {
+            "role": "user",
+            "content": "give me helth industry from usa "
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                              job_title                              organization_name person_location_city person_location_state\n0     joseph makem                       registered nurse                                    aria health         philadelphia          pennsylvania\n1     gail buckley                                    cna                           advocate health care               mokena              illinois\n2     adam furnier  senior quality improvement specialist  cincinnati children's hospital medical center           cincinnati                  ohio\n3       grady wier          healthcare analytics director                    xenex disinfection services          san antonio                 texas\n4       ryan duffy                svp, commercial markets                                     capital rx              chicago              illinois"
+        },
+        {
+            "role": "user",
+            "content": "with industry type"
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                              job_title                              organization_name organization_industries person_location_city person_location_state\n0     joseph makem                       registered nurse                                    aria health  hospital & health care         philadelphia          pennsylvania\n1     gail buckley                                    cna                           advocate health care  hospital & health care               mokena              illinois\n2     adam furnier  senior quality improvement specialist  cincinnati children's hospital medical center  hospital & health care           cincinnati                  ohio\n3       grady wier          healthcare analytics director                    xenex disinfection services  hospital & health care          san antonio                 texas\n4       ryan duffy                svp, commercial markets                                     capital rx  hospital & health care              chicago              illinois"
+        },
+        {
+            "role": "user",
+            "content": "with email address."
+        },
+        {
+            "role": "assistant",
+            "content": "  person_full_name                              job_title                              organization_name organization_industries                person_email\n0     joseph makem                       registered nurse                                    aria health  hospital & health care            makem321@aol.com\n1     gail buckley                                    cna                           advocate health care  hospital & health care  gailthequeen@sbcglobal.net\n2     adam furnier  senior quality improvement specialist  cincinnati children's hospital medical center  hospital & health care        adam.furnier@fmr.com\n3       grady wier          healthcare analytics director                    xenex disinfection services  hospital & health care          gwier@axiom-rm.com\n4       ryan duffy                svp, commercial markets                                     capital rx  hospital & health care           rwduffy@gmail.com"
+        },
+        {
+            "role": "user",
+            "content": "and social media contacts also"
+        },
+        {
+            "role": "assistant",
+            "content": "Hello! How can I assist you today? Are you looking to find some business contacts?"
+        }
     ]
 }

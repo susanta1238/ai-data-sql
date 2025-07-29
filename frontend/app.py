@@ -1,12 +1,12 @@
 # frontend/app.py
 import streamlit as st
 import requests
-import json # To print JSON data nicely if needed
-import pandas as pd # To display dataframes
+import json 
+import pandas as pd 
 
 # --- Configuration ---
 # URL of your running FastAPI backend
-API_URL = "http://127.0.0.1:8000/api/chat"
+API_URL = "http://127.0.0.1:9010/api/chat"
 
 # --- Streamlit App Setup ---
 st.set_page_config(page_title="AI Database Assistant", layout="wide")
